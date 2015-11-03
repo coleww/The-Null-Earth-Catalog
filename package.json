@@ -1,0 +1,40 @@
+{
+  "name": "big-novel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@coleww/markov": "0.0.8",
+    "capitalize": "^1.0.0",
+    "cockney-rhyming-slang": "^1.0.0",
+    "corpora-project": "^0.1.2",
+    "diacriticize": "^1.0.0",
+    "eat-wrapper": "^1.0.1",
+    "fetch-image": "^1.0.4",
+    "gender-neutral": "^0.1.1",
+    "gutencorpus": "^0.1.2",
+    "is-snowball": "^1.0.1",
+    "lipogram": "^1.0.0",
+    "n-plus-7": "^1.1.0",
+    "natural": "^0.2.1",
+    "new-slang": "^1.0.1",
+    "pick-random": "^1.0.1",
+    "poetic-vomit": "^1.0.1",
+    "pos": "^0.3.0",
+    "pronouncing": "aparrish/pronouncingjs",
+    "queneau-buckets": "^1.0.1",
+    "queneau-letters": "^1.0.2",
+    "rita": "^1.1.19",
+    "shuffle-array": "^0.1.0",
+    "spewer": "^0.1.2",
+    "this-is-probably-ok-to-say": "^1.0.3",
+    "to-unicode": "^1.0.2",
+    "word-vomit": "^1.0.1",
+    "wordnik": "0.0.2"
+  }
+}
