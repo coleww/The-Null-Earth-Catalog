@@ -1,13 +1,46 @@
 THE NULL EARTH CATALOG
 ---------------------------
 
-http://www.wholeearth.com/index.php
-
-https://en.wikipedia.org/wiki/Whole_Earth_Catalog
-
-http://wholeearth.com/history-whole-earth-catalog.php
 
 
+
+
+
+![](Function.jpg
+
+// generate a very small corpus of these with Q bucks?
+TOOLS 4 ACCESS
+
+
+TOC-
+understanding whole systems
+shelter and land use
+industry and craft
+communication
+community
+nomadics
+learning
+
+INTRO-
+PURPOSE
+FUNCTION
+USE
+
+last page: ACCESS INFORMATION
+
+
+
+some things 3 column. some 2. some just "flow"?
+
+
+
+
+
+actors:
+products
+lists
+recipes
+thinkpieces
 
 
 

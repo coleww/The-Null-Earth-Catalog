@@ -8,7 +8,7 @@ var Filters = {}
 Filters.getPixels = function(img) {
   var c = new Canvas(img.width, img.height)
   var ctx = c.getContext('2d')
-  ctx.drawImage(img)
+  ctx.drawImage(img, 0, 0)
   return ctx.getImageData(0,0,c.width,c.height)
 }
 
@@ -107,4 +107,4 @@ Filters.convolute = function(pixels, weights, opaque) {
   return output
 }
 
-module.exports = filters
+module.exports = Filters
