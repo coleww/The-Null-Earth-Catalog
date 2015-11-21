@@ -4,7 +4,6 @@
   "description": "THE NULL EARTH CATALOG ---------------------------",
   "main": "index.js",
   "scripts": {
-    "earth": "earth >> earth.txt",
     "build": "browserify www/demo.js -o www/bundle.js",
     "deploy": "echo 'um figure this out i guess?'",
     "watch": "watchify www/demo.js -o www/bundle.js --debug --verbose"
