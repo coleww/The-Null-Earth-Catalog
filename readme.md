@@ -48,6 +48,9 @@ thinkpieces
 - a corpus
 - some node modules
 - a function that accepts a data object and returns an HTML element
+module.exports = function (seed, opts, imgPath) {
+  
+}
 
 # narrator
 - builds cover/TOC/etc. 

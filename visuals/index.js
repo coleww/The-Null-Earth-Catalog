@@ -4,10 +4,9 @@ var fs = require('fs')
 var proc = require('./processor')
 
 
-fetchy('cooking instructions', function ()  {
-  fs.readdirSync('./imgs').forEach(function (f) {
+fetchy(process.argv.slice(2).join(' '), function ()  {
+  fs.readdirSync('./' +  process.argv.slice(2).join('_')).forEach(function (f) {
     proc(f)
   })
-
 })
 
