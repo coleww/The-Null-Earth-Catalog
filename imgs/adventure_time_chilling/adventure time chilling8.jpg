@@ -1,0 +1,543 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Adventure Time Wallpaper | 1600x1000 | ID:22623</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<meta name="title" content="Adventure Time Wallpaper | 1600x1000 | ID:22623" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Adventure Time wallpaper,  Adventure Time wallpaper 1600x1000, Adventure Time background, Adventure Time desktop background, Adventure Time image, 1600x1000"/><meta name="description" content="Adventure Time wallpaper 1600px width, 1000px height, 146 kB, for your PC desktop background and mobile phone (iPad, iPhone, Adroid). Image id:22623"/>
+
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+     
+
+function getBanner(keyword, div_id, b_width, b_height){
+	
+		
+		
+		$.post("adblock/adblockGetBanner.php",//kličemo adblockGetbanner ki vrne alternativni oglas
+		{
+					
+			keyword:keyword,
+			div_id:div_id,
+			b_width:b_width,
+			b_height:b_height,
+					
+		},
+		function(data,status){
+					
+			
+			$("#"+div_id).html(data);//prikažemo alternativni oglas v DIV ID 1
+			
+		});
+	
+	
+}
+
+   
+$(function() {     
+	
+	
+	
+		
+	var h = $("#square3").height();
+	
+	if(h ==0){//preverimo višino DIV elementa. Če je 0, pomeni da se prvotni oglas ni prikazal
+		
+		
+		
+		
+		var keyword='';
+		var div_id ='square3';
+		var b_width=300;
+		var b_height=250;
+		
+		getBanner(keyword, div_id, b_width, b_height);
+		
+	}
+		
+		
+		
+});
+
+
+
+</script> 
+
+
+<link href="fonts.css" rel="stylesheet" type="text/css">
+<script async src="ajax.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11016396-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+<style>
+
+	
+	.responsive1{
+			margin-left:0px;
+			margin-right:0px;
+			
+			
+			}
+	
+	.responsiveImg{
+		
+		max-width:100%; 
+		width:auto;
+		
+	}
+	#responsiveCat2{
+		/*visibility:hidden;*/
+		display:none;
+		width:0px; height:0px;
+		
+		
+		
+		
+		
+	}
+	
+	@media screen and (min-device-width: 1200px) {
+		
+		.responsive1{
+			/*margin-left:10%;
+			margin-right:10%;*/
+			width:1200px; margin-left:auto; margin-right:auto;
+			
+	}
+	
+	
+	.responsiveImg{
+		width:728px;
+		height:auto;
+		float:left;
+	
+		
+	}
+	.responsiveImg2{
+		width:100%;
+		height:auto;
+		/*float:left;*/
+	
+		
+	}
+	#responsiveCat{
+		/*visibility:visible;*/
+		display:block;
+		
+		width:170px; 
+		height:800px; 
+		margin-right:10px; margin-top:5px; padding:10px;
+		float:left; border: 1px solid #000; background-color:#1E1E1E;
+		
+		
+		
+	}
+	#responsiveCat2{
+		/*visibility:visible;*/
+		display:block;
+		
+		width:220px; 
+		height:auto;
+		margin-right:220px; 
+		margin-top:0px; 
+		padding:10px;
+		float:right; 
+		border: 1px solid #0B0B0B;
+	background-color:#272727;
+		
+		
+		
+	}
+		
+		
+	}
+	
+
+</style>
+
+</head>
+
+<body>
+
+<div style="width:100%; background-color:#000; border-bottom-width:1px; border-bottom-color:#666; border-bottom-style:solid; padding-top:10px; padding-bottom:10px;">
+	
+  
+
+	<div style="height:80px" class="responsive1">
+        
+                <a href="http://www.wallpapervortex.com"><img src="logo.jpg"  border="0" style="max-width:100%; height:auto" ></a>
+                <br style="clear:both"/>
+               
+        
+        <div style="margin-top:5px;">
+            <nav>
+            <a href="http://www.wallpapervortex.com" class="fontTitles">Home</a>&nbsp;&nbsp;&nbsp;<a href="http://www.wallpapervortex.com/view-all.html" class="fontTitles">Categories</a>&nbsp;&nbsp;&nbsp;<a href="http://www.wallpapervortex.com/tags.html" class="fontTitles">Tags</a>&nbsp;&nbsp;&nbsp;<a href="http://www.wallpapervortex.com/search-by-resolution.html" class="fontTitles">By Resolution</a>&nbsp;&nbsp;&nbsp;<a href="http://www.wallpapervortex.com/random-wallpapers.html" class="fontTitles">Random</a>&nbsp;&nbsp;&nbsp;<a href="http://www.wallpapervortex.com/index.php?page=search" class="fontTitles">Search</a>
+            &nbsp;&nbsp;&nbsp;<a href="http://www.4kwallpapers.org" class="fontTitles" target="_blank" title="4K wallpapers">4K</a>
+            </nav>
+        </div>
+          <div class="addthis_toolbox addthis_default_style" style="float:left; margin-top:5px">
+            <a class="addthis_button_preferred_1"></a>
+            <a class="addthis_button_preferred_2"></a>
+            <a class="addthis_button_preferred_3"></a>
+            <a class="addthis_button_preferred_4"></a>
+            <a class="addthis_button_compact"></a>
+            <a class="addthis_counter addthis_bubble_style"></a>
+            </div>
+	</div>
+    
+<div style="clear:both;"></div>
+
+</div>
+
+
+
+
+
+<div id="content_container" class="responsive1">
+
+
+
+    			<div style="margin-top:2px; margin-bottom:10px;"><a href = "http://www.wallpapervortex.com" class="fontNavigation">Home</a> <span class="fontNavigation">/</span> <a href = "http://www.wallpapervortex.com/cartoons.html" class="fontNavigation" title="Cartoons Wallpapers">Cartoons</a> <span class="fontNavigation">/</span> <a href = "http://www.wallpapervortex.com/cartoons-adventure_time-wallpapers.html" class="fontNavigation" title="Adventure Time Wallpapers">Adventure Time Wallpapers </a> <span class="fontNavigation">/</span> <span class="fontNavigation">Adventure Time</span>
+				</div>
+                
+				
+
+
+			<div style="margin-top:15px; margin-bottom:15px; float:left;" id="top1">
+			
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- new vortex top -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-7434570596400321"
+     data-ad-slot="4961549204"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+			</div>
+			        
+   
+    <div style="margin-top:5px; max-width:728px; "><h1 title="Adventure Time Wallpaper">Adventure Time  Wallpaper 1600x1000</h1></div>                
+    
+    
+        <div id="responsiveCat2" >
+    
+    
+   <span class="fontNavigation">Most popular:</span>
+   <div>
+	
+	
+	
+	<a href = "http://www.wallpapervortex.com/wallpaper-18863_adventure_time.html"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/aa_18863_adventure_time.jpg" width="100%" border = "0" title="Adventure Time wallpaper"/></a>
+	<a href = "http://www.wallpapervortex.com/wallpaper-18863_adventure_time.html" title = "Adventure Time wallpaper 1920x1335 details" class="fontPicTitleSmall">Adventure Time</a>
+	
+
+	</div><div>
+	
+	
+	
+	<a href = "http://www.wallpapervortex.com/wallpaper-23001_adventure_time.html"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/aa_23001_adventure_time.jpg" width="100%" border = "0" title="Adventure Time wallpaper"/></a>
+	<a href = "http://www.wallpapervortex.com/wallpaper-23001_adventure_time.html" title = "Adventure Time wallpaper 1680x1050 details" class="fontPicTitleSmall">Adventure Time</a>
+	
+
+	</div><div>
+	
+	
+	
+	<a href = "http://www.wallpapervortex.com/wallpaper-18864_adventure_time.html"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/aa_18864_adventure_time.jpg" width="100%" border = "0" title="Adventure Time wallpaper"/></a>
+	<a href = "http://www.wallpapervortex.com/wallpaper-18864_adventure_time.html" title = "Adventure Time wallpaper 1680x1050 details" class="fontPicTitleSmall">Adventure Time</a>
+	
+
+	</div><div>
+	
+	
+	
+	<a href = "http://www.wallpapervortex.com/wallpaper-23005_adventure_time.html"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/aa_23005_adventure_time.jpg" width="100%" border = "0" title="Adventure Time wallpaper"/></a>
+	<a href = "http://www.wallpapervortex.com/wallpaper-23005_adventure_time.html" title = "Adventure Time wallpaper 1440x1280 details" class="fontPicTitleSmall">Adventure Time</a>
+	
+
+	</div><div>
+	
+	
+	
+	<a href = "http://www.wallpapervortex.com/wallpaper-22612_adventure_time.html"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/aa_22612_adventure_time.jpg" width="100%" border = "0" title="Adventure Time wallpaper"/></a>
+	<a href = "http://www.wallpapervortex.com/wallpaper-22612_adventure_time.html" title = "Adventure Time wallpaper 1366x768 details" class="fontPicTitleSmall">Adventure Time</a>
+	
+
+	</div>   <br/>
+   <a href="http://www.wallpapervortex.com/cartoons-adventure_time-wallpapers.html" class="fontNavigation">View all Adventure Time wallpapers</a>
+   </div>
+   
+
+     
+  <a href = "http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/22623_adventure_time.jpg" target="_blank"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/22623_adventure_time.jpg"   border="0" alt="Adventure Time wallpaper" title="Adventure Time wallpaper" class="responsiveImg"></a>
+
+
+
+<div class="" style="height:auto; max-width:716px; float:left; border: 1px solid #0B0B0B; background-color:#272727; padding:5px; margin-top:10px;">
+                        
+<form action="downloadwallpaper.php" method="post">
+<input type="submit" name="submit" value="Download Wallpaper" style="font-family:Verdana, Geneva, sans-serif; font-size:16px; border-color:#000; border-width:1px; border-style:solid; background-color:#CCC" />
+<input type="hidden" name="file" value="22623_adventure_time">
+<input type="hidden" name="cat" value="cartoons">
+<input type="hidden" name="subcat" value="adventure_time">
+</form>
+ <h2>
+    Adventure Time pc desktop background.            
+        
+        
+            </h2>   
+	    <span class="fontPictureDesc fontBold">Resolution:</span><span class="fontPictureDesc">1600 x 1000</span>
+    
+    <span class="fontPictureDesc fontBold">Size:</span><span class="fontPictureDesc">146 kB</span>
+    
+   
+    <span class="fontPictureDesc fontBold">Views:</span><span class="fontPictureDesc">45338</span>
+    
+    <span class="fontPictureDesc fontBold">Date:</span><span class="fontPictureDesc">2012-11-08 18:36:43</span>
+    <span class="fontPictureDesc fontBold">Uploaded By:</span>
+    
+        <a href="http://www.wallpapervortex.com/user-Anonymous.html" class="fontBlue2 fontBold"><u>Anonymous</u></a>
+        <br/>
+        <a href = "http://www.wallpapervortex.com/index.php?page=resize&amp;picture=22623_adventure_time" class="fontBlue2 fontBold" rel="nofollow">Resize Wallpaper</a>
+     
+      <a href="http://www.wallpapervortex.com/ipad-wallpaper-22623_adventure_time.html" class="fontBlue2 fontBold">iPad 1 &amp; 2 wallpaper</a>
+            <a href="http://www.wallpapervortex.com/ipad-air-wallpaper-22623_adventure_time.html" class="fontBlue2 fontBold">iPad 3, 4 &amp; Air wallpaper</a>
+            <a href="http://www.wallpapervortex.com/iphone-wallpaper-22623_adventure_time.html" class="fontBlue2 fontBold">iPhone wallpaper</a>
+       <a href="http://www.wallpapervortex.com/iphone-5-wallpaper-22623_adventure_time.html" class="fontBlue2 fontBold">iPhone 5 wallpaper</a>
+            <a href="http://www.wallpapervortex.com/samsung-s4-wallpaper-22623_adventure_time.html" class="fontBlue2 fontBold">Samsung S4 wallpaper</a>
+    
+
+
+<br/><br/>
+         <span class="fontComments fontBold">Do you like this wallpaper? Write a comment:</span>
+      
+      <form id="form2" name="form2" method="post" action="">
+        
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="92%"><textarea name="textareath" id="textarea"  style="width:100%; height:30px;  background-color:#F8F8F8"></textarea></td>
+            <td width="8%"><input type="submit" name="post_think" id="button" value="Submit" style="font-size:12px;  border:#333333; height:30px; border-style:solid; border-width:1px; background-color:#CCC;"/></td>
+          </tr>
+        </table>
+      </form>
+      
+       
+      <div style="margin-left:2px; margin-bottom:3px; border-bottom:solid; border-bottom-color:#404040; border-bottom-width:1px;"><q class="fontComments"> 
+   yess it so beaitifull
+   </q></div>
+    
+	
+
+
+</div>
+
+
+
+
+					<div style="margin-top:10px; margin-bottom:10px; float:left; " id="bottom2">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- new vortex blue bot -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-7434570596400321"
+     data-ad-slot="6204799601"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+					</div>
+					 
+
+
+                         
+                  
+
+
+                   
+
+
+
+
+                                     
+
+	
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+			<div style="clear:both; height:20px;"></div>
+			<div class="newWallpaper1"><table width="100%" height=100% border="0" cellspacing="0" cellpadding="0" >
+		
+			<tr>
+      		<td align ="center"><a href = "http://www.wallpapervortex.com/wallpaper-47586_adventure_time.html"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/aa_47586_adventure_time.jpg" border = "0" title="Adventure Time wallpaper"/></a></td>
+   			 </tr>
+				<tr>
+      		<td><div align="left" ><a href = "http://www.wallpapervortex.com/wallpaper-47586_adventure_time.html" title = "Adventure Time wallpaper 4034x2275 details" class="fontPicTitle">Adventure Time</a> <br/> <span class="fontPictureDesc">Res: 4034x2275 / Size:1124kb</span><br/>
+			<span class="fontPictureDesc">Views: 272</span><br/><span class="fontPictureDesc">More</span> <a href="http://www.wallpapervortex.com/cartoons-adventure_time-wallpapers.html"  title="Adventure Time wallpapers" class="fontPictureDesc">Adventure Time wallpapers</a></div></td>
+    		</tr>
+  		</table>
+	
+	
+	</div>
+	<div class="newWallpaper1"><table width="100%" height=100% border="0" cellspacing="0" cellpadding="0" >
+		
+			<tr>
+      		<td align ="center"><a href = "http://www.wallpapervortex.com/wallpaper-40447_adventure_time.html"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/aa_40447_adventure_time.jpg" border = "0" title="Adventure Time wallpaper"/></a></td>
+   			 </tr>
+				<tr>
+      		<td><div align="left" ><a href = "http://www.wallpapervortex.com/wallpaper-40447_adventure_time.html" title = "Adventure Time wallpaper 1365x768 details" class="fontPicTitle">Adventure Time</a> <br/> <span class="fontPictureDesc">Res: 1365x768 / Size:1114kb</span><br/>
+			<span class="fontPictureDesc">Views: 940</span><br/><span class="fontPictureDesc">More</span> <a href="http://www.wallpapervortex.com/cartoons-adventure_time-wallpapers.html"  title="Adventure Time wallpapers" class="fontPictureDesc">Adventure Time wallpapers</a></div></td>
+    		</tr>
+  		</table>
+	
+	
+	</div>
+	<div class="newWallpaper1"><table width="100%" height=100% border="0" cellspacing="0" cellpadding="0" >
+		
+			<tr>
+      		<td align ="center"><a href = "http://www.wallpapervortex.com/wallpaper-35652_adventure_time.html"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/aa_35652_adventure_time.jpg" border = "0" title="Adventure Time wallpaper"/></a></td>
+   			 </tr>
+				<tr>
+      		<td><div align="left" ><a href = "http://www.wallpapervortex.com/wallpaper-35652_adventure_time.html" title = "Adventure Time wallpaper 2400x1350 details" class="fontPicTitle">Adventure Time</a> <br/> <span class="fontPictureDesc">Res: 2400x1350 / Size:252kb</span><br/>
+			<span class="fontPictureDesc">Views: 16718</span><br/><span class="fontPictureDesc">More</span> <a href="http://www.wallpapervortex.com/cartoons-adventure_time-wallpapers.html"  title="Adventure Time wallpapers" class="fontPictureDesc">Adventure Time wallpapers</a></div></td>
+    		</tr>
+  		</table>
+	
+	
+	</div>
+	<div class="newWallpaper1"><table width="100%" height=100% border="0" cellspacing="0" cellpadding="0" >
+		
+			<tr>
+      		<td align ="center"><a href = "http://www.wallpapervortex.com/wallpaper-40438_adventure_time.html"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/aa_40438_adventure_time.jpg" border = "0" title="Adventure Time wallpaper"/></a></td>
+   			 </tr>
+				<tr>
+      		<td><div align="left" ><a href = "http://www.wallpapervortex.com/wallpaper-40438_adventure_time.html" title = "Adventure Time wallpaper 1280x949 details" class="fontPicTitle">Adventure Time</a> <br/> <span class="fontPictureDesc">Res: 1280x949 / Size:359kb</span><br/>
+			<span class="fontPictureDesc">Views: 1717</span><br/><span class="fontPictureDesc">More</span> <a href="http://www.wallpapervortex.com/cartoons-adventure_time-wallpapers.html"  title="Adventure Time wallpapers" class="fontPictureDesc">Adventure Time wallpapers</a></div></td>
+    		</tr>
+  		</table>
+	
+	
+	</div>
+	<div class="newWallpaper1"><table width="100%" height=100% border="0" cellspacing="0" cellpadding="0" >
+		
+			<tr>
+      		<td align ="center"><a href = "http://www.wallpapervortex.com/wallpaper-35657_adventure_time.html"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/aa_35657_adventure_time.jpg" border = "0" title="Adventure Time wallpaper"/></a></td>
+   			 </tr>
+				<tr>
+      		<td><div align="left" ><a href = "http://www.wallpapervortex.com/wallpaper-35657_adventure_time.html" title = "Adventure Time wallpaper 4336x2436 details" class="fontPicTitle">Adventure Time</a> <br/> <span class="fontPictureDesc">Res: 4336x2436 / Size:1600kb</span><br/>
+			<span class="fontPictureDesc">Views: 1290</span><br/><span class="fontPictureDesc">More</span> <a href="http://www.wallpapervortex.com/cartoons-adventure_time-wallpapers.html"  title="Adventure Time wallpapers" class="fontPictureDesc">Adventure Time wallpapers</a></div></td>
+    		</tr>
+  		</table>
+	
+	
+	</div>
+	<div class="newWallpaper1"><table width="100%" height=100% border="0" cellspacing="0" cellpadding="0" >
+		
+			<tr>
+      		<td align ="center"><a href = "http://www.wallpapervortex.com/wallpaper-47561_adventure_time.html"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/aa_47561_adventure_time.jpg" border = "0" title="Adventure Time wallpaper"/></a></td>
+   			 </tr>
+				<tr>
+      		<td><div align="left" ><a href = "http://www.wallpapervortex.com/wallpaper-47561_adventure_time.html" title = "Adventure Time wallpaper 1365x768 details" class="fontPicTitle">Adventure Time</a> <br/> <span class="fontPictureDesc">Res: 1365x768 / Size:1024kb</span><br/>
+			<span class="fontPictureDesc">Views: 314</span><br/><span class="fontPictureDesc">More</span> <a href="http://www.wallpapervortex.com/cartoons-adventure_time-wallpapers.html"  title="Adventure Time wallpapers" class="fontPictureDesc">Adventure Time wallpapers</a></div></td>
+    		</tr>
+  		</table>
+	
+	
+	</div>
+	<div class="newWallpaper1"><table width="100%" height=100% border="0" cellspacing="0" cellpadding="0" >
+		
+			<tr>
+      		<td align ="center"><a href = "http://www.wallpapervortex.com/wallpaper-47590_adventure_time.html"><img src="http://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/aa_47590_adventure_time.jpg" border = "0" title="Adventure Time wallpaper"/></a></td>
+   			 </tr>
+				<tr>
+      		<td><div align="left" ><a href = "http://www.wallpapervortex.com/wallpaper-47590_adventure_time.html" title = "Adventure Time wallpaper 1920x1080 details" class="fontPicTitle">Adventure Time</a> <br/> <span class="fontPictureDesc">Res: 1920x1080 / Size:85kb</span><br/>
+			<span class="fontPictureDesc">Views: 334</span><br/><span class="fontPictureDesc">More</span> <a href="http://www.wallpapervortex.com/cartoons-adventure_time-wallpapers.html"  title="Adventure Time wallpapers" class="fontPictureDesc">Adventure Time wallpapers</a></div></td>
+    		</tr>
+  		</table>
+	
+	
+	</div>
+	<div class="newWallpaper2" id="square3"> 
+		<script type="text/javascript">var vclk_options = {sid:61337,media_id:6,media_type:8,version:"1.4"};</script><script class="vclk_pub_code" type="text/javascript" src="http://cdn.fastclick.net/js/adcodes/pubcode.min.js?sid=61337&media_id=6&media_type=8&version=1.4&exc=1"></script><noscript><a href="http://media.fastclick.net/w/click.here?sid=61337&m=6&c=1" target="_blank"><img src="http://media.fastclick.net/w/get.media?sid=61337&m=6&tp=8&d=s&c=1&vcm_acv=1.4" width="300" height="250" border="1"></a></noscript>
+ 
+				</div><div style="clear:both"></div>
+
+<div style="clear:both; max-width:1000px; padding-top:0px; padding-bottom:10px">
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- new vortex top responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7434570596400321"
+     data-ad-slot="2864824006"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+
+
+
+
+  <p align="center"><a href="http://www.wallpapervortex.com/login.html" class="fontNavigation">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.wallpapervortex.com/register.html" class="fontNavigation">Submit Wallpapers</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.wallpapervortex.com/contact.html" class="fontNavigation">Contact</a></p>
+
+
+
+
+<div align="center">
+
+<span class="fontSmall">All submitted content remains copyrighted to its original copyright holder. Images are for personal, non commercial use. </span><br/>
+
+<a href="dmca.php" class="fontPictureDesc">DMCA</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="privacypolicy.html" class="fontPictureDesc">Privacy policy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php?page=commercial" class="fontPictureDesc">Commercial use of images</a>
+
+
+
+
+</div>
+</div>
+      
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-529e19260cd6f3d1"></script>
+
+
+
+<script data-cfasync="false" type="text/javascript" src="http://www.brightadnetwork.com/a/display.php?r=944430"></script>
+
+
+
+
+<script data-cfasync="false" type="text/javascript" src="http://ads.comeadvertisewithus.com/ads/ads.js"></script>
+<script type="text/javascript">
+    eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('!k(){m(0!=x.1g){7 e="1k.1f.1c",t="1d",r=!1,n=1,a=1,o={1b:"19",1n:"1B",1A:"1"},i=k(e,t,r){7 n="";m(r){7 a=1D 1H;a.1F(a.1y()+1s*r*1q),n="; 1p="+a.1v()}W n="";v.Y=e+"="+t+n+"; 1C=/"},c=k(e){z(7 t=e+"=",r=v.Y.1x(";"),n=0;n<r.p;n++){z(7 a=r[n];" "==a.9(0);)a=a.M(1,a.p);m(0==a.L(t))j a.M(t.p,a.p)}j y},h=k(e){m(!r){7 t=y==c("K")?0:1u(c("K"));m(!(t>=a)){7 h=x.S.F,d=s(o);"a"==e.N.1t.X()&&(h=e.N.F,e.1r()),r=!0,i("K",t+1,n);7 f=u().X();m(-1!=f.L("P")){7 l=v.1z("a");l.F=h;7 g=v.1G("1E");g.1o("10",!0,!0,x,0,0,0,0,0,!1,!1,!1,!1,1,y),l.1I(g)}W x.17(h,"");x.S.F=d}}},u=k(){7 e,t=H.1e,r=t.I(/(1a|P|1l|1m|1j|R(?=\\/))\\/?\\s*(\\d+)/i)||[];j/R/i.1h(r[1])?(e=/\\1i[ :]+(\\d+)/g.1w(t)||[],"1T "+(e[1]||"")):"22"===r[1]&&(e=t.I(/\\b(Q|21)\\/(\\d+)/),y!=e)?e.20(1).C(" ").O("Q","1Y"):(r=r[2]?[r[1],r[2]]:[H.1Z,H.24,"-?"],y!=(e=t.I(/25\\/(\\d+)/i))&&r.26(1,1,e[1]),r.C(" "))},s=k(r){k n(){z(7 e="",t="13",r=0;5>r;r++)e+=t.9(T.1J(T.1X()*t.p));j e}7 a=1O.1N(r),o=d().14(a);o=n()+o+n(),o=o.O(/\\//g,"-");7 i=t+"://"+e+"/"+o;j i},d=k(){k e(e,t){7 r=o.L(e.9(t));m(-1===r)E"V J U";j r}k t(t){7 r,n,o=0,i=t.p,c=[];m(t=A(t),0===i)j t;m(i%4!==0)E"V J U";z(t.9(i-1)===a&&(o=1,t.9(i-2)===a&&(o=2),i-=4),r=0;i>r;r+=4)n=e(t,r)<<18|e(t,r+1)<<12|e(t,r+2)<<6|e(t,r+3),c.q(A.G(n>>16,n>>8&B,B&n));15(o){D 1:n=e(t,r)<<18|e(t,r+1)<<12|e(t,r+2)<<6,c.q(A.G(n>>16,n>>8&B));Z;D 2:n=e(t,r)<<18|e(t,r+1)<<12,c.q(A.G(n>>16))}j c.C("")}k r(e,t){7 r=e.1L(t);m(r>B)E"1P: 1V 1U 5";j r}k n(e){m(1!==1R.p)E"1S: 1W 1Q 1K 1M";e=A(e);7 t,n,i=[],c=e.p-e.p%3;m(0===e.p)j e;z(t=0;c>t;t+=3)n=r(e,t)<<16|r(e,t+1)<<8|r(e,t+2),i.q(o.9(n>>18)),i.q(o.9(n>>12&w)),i.q(o.9(n>>6&w)),i.q(o.9(w&n));15(e.p-c){D 1:n=r(e,t)<<16,i.q(o.9(n>>18)+o.9(n>>12&w)+a+a);Z;D 2:n=r(e,t)<<16|r(e,t+1)<<8,i.q(o.9(n>>18)+o.9(n>>12&w)+o.9(n>>6&w)+a)}j i.C("")}7 a="=",o="13+/";j{14:n,J:t}};v.11?v.11("10",h,!1):v.27("23",h)}}();',62,132,'|||||||var||charAt||||||||||return|function||if|||length|push|||||document|63|window|null|for|String|255|join|case|throw|href|fromCharCode|navigator|match|decode|adrclm_c|indexOf|substring|target|replace|chrome|OPR|trident|location|Math|base64|Cannot|else|toLowerCase|cookie|break|click|addEventListener||ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789|encode|switch||open||get_pop|opera|route|info|http|userAgent|stabletrappeddevote|_impspcabe|test|brv|msie|data|safari|firefox|stid|initMouseEvent|expires|1e3|preventDefault|60|tagName|parseInt|toGMTString|exec|split|getTime|createElement|sbid|1410|path|new|MouseEvents|setTime|createEvent|Date|dispatchEvent|floor|argument|charCodeAt|required|stringify|JSON|INVALID_CHARACTER_ERR|one|arguments|SyntaxError|IE|Exception|DOM|exactly|random|Opera|appName|slice|Edge|Chrome|onclick|appVersion|version|splice|attachEvent'.split('|'),0,{}));
+</script>
+
+
+
+</body>
+</html>

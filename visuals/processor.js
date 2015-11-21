@@ -18,24 +18,16 @@ module.exports = function (path, cb){
     if (err) throw err
     img = new Image
     img.onload = function() {
-
-
       var width = img.width
       var height = img.height
-
       // make a new canvas that is the same size as the middle finger image, because we wouldn't want to let that get distorted or lose any fidelity
       canvas = new Canvas(width, height)
-
       // get that context
       ctx = canvas.getContext('2d')
-
       var processed = filters.filterImage(filters.threshold, img, 130)
-
       ctx.putImageData(processed, 0, 0)
-
-
-      fs.writeFileSync('./imgs/proc-' + path, canvas.toBuffer())
-
+      fs.writeFileSync('./imgs/' + path.replace('/', '/PROC-'), canvas.toBuffer())
+      fs.unlinkSync('./imgs/' + path)
     }
     img.src = data
   })

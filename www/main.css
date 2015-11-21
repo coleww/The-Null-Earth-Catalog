@@ -1,11 +1,82 @@
+####################################################################
+###################### main classes ################################
+####################################################################
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.catalog {
+
+}
+
+.section {
+  page-break-after:always;
+}
+
+# how to make this take up the full page? or add border? hmm
+.page {
+
+}
+
+.cover {
+  background-color: black;
+  color: white;
+
+}
+
+.cover--title {
+  font-size: 50px;
+}
+
+.cover--subtitle {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.cover--edition {
+
+}
+
+.cover--img {
+
+}
+
+####################################################################
+###################### item related classes ########################
+####################################################################
+
+.item {
+
+}
+
+.op-ed {
+
+}
+
+.op-ed--portrait {
+
+}
+
+.how-to {
+
+}
+
+.how-to--list {
+
+}
+
+.how-to--diagram {
+
+}
+
+####################################################################
+########################### utility classes ########################
+####################################################################
+
 .hidden {
   display: none;
 }
 
-.full {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.img-border {
+  border: 1px solid black;
 }
