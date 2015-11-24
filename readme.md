@@ -1,7 +1,7 @@
 THE NULL EARTH CATALOG
 ---------------------------
 
-
+MUST TURN ALL THE FS INTO REQUIRES, GOSH, FUCK. WOW.
 
 
 

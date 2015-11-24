@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/Users/cole/.nvm/v0.12.0/bin/npm', 'run', 'wach' ]
+2 info using npm@3.3.12
+3 info using node@v0.12.0
+4 verbose stack Error: missing script: wach
+4 verbose stack     at run (/Users/cole/.nvm/v0.12.0/lib/node_modules/npm/lib/run-script.js:147:19)
+4 verbose stack     at /Users/cole/.nvm/v0.12.0/lib/node_modules/npm/lib/run-script.js:57:5
+4 verbose stack     at /Users/cole/.nvm/v0.12.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:345:5
+4 verbose stack     at checkBinReferences_ (/Users/cole/.nvm/v0.12.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:309:45)
+4 verbose stack     at final (/Users/cole/.nvm/v0.12.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:343:3)
+4 verbose stack     at then (/Users/cole/.nvm/v0.12.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+4 verbose stack     at /Users/cole/.nvm/v0.12.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:300:12
+4 verbose stack     at /Users/cole/.nvm/v0.12.0/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:76:16
+4 verbose stack     at fs.js:336:14
+4 verbose stack     at /Users/cole/.nvm/v0.12.0/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:42:10
+5 verbose cwd /Users/cole/projects/big-novel
+6 error Darwin 14.5.0
+7 error argv "node" "/Users/cole/.nvm/v0.12.0/bin/npm" "run" "wach"
+8 error node v0.12.0
+9 error npm  v3.3.12
+10 error missing script: wach
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]

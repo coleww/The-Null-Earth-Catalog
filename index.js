@@ -5,7 +5,7 @@ var topics = require('./toc')()
 var uses = require('./uses')()
 var makeSubtitle = require('./subtitle')
 
-
+var pick = require('pick-random')
 // hmm this should end up in its own file dir thing with the toc and sec and stuff....
 var coverPage = document.createElement('section')
 coverPage.className = 'cover page'
