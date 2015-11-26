@@ -5,10 +5,10 @@ var pick = function (arr) {
 var imageMap = require('./imageMap')
 var cap = require('capitalize')
 
-var absence = require('./actors/absence')
-var baes = require('./actors/baes')
-var snake_oil = require('./actors/snake_oil')
-var snowballer = require('./actors/snowballer')
+var absence = require('./absence')
+var baes = require('./baes')
+var snake_oil = require('./snake_oil')
+var snowballer = require('./snowballer')
 
 var imageMap = require('./imageMap')
 
@@ -41,8 +41,8 @@ module.exports = function (name, num, topics) {
 
   for (var i = 0; i < 7; i++) {
 
-
-    for (var j = 0; j < 20; j++) {
+    var numy = 10 + ~~(Math.random() * 10)
+    for (var j = 0; j < numy; j++) {
       var item = document.createElement('div')
       item.className = 'item--thing'
       item.style.display = 'inline-block'

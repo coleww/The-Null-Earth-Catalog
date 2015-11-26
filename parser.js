@@ -7,10 +7,10 @@ var fs = require('fs')
 //   fs.unlinkSync(path + '/' + f)
 // })
 
-var imageMap = fs.readdirSync('./imgs').filter(function(x){return !x.match('DS_Store')}).map(function (ip) {
-  return fs.readdirSync('./imgs/' + ip).filter(function(x){return !x.match('DS_Store')}).map(function (i) {
-    return './imgs/' + ip + '/' + i
+var imageMap = fs.readdirSync('./corpuses').filter(function(x){return !x.match('DS_Store')}).map(function (ip) {
+  return fs.readdirSync('./corpuses/' + ip).filter(function(x){return !x.match('DS_Store')}).map(function (i) {
+    return './corpuses/' + ip + '/' + i
   })
 })
 
-fs.writeFileSync('./imageMap.js', 'module.exports = ' + JSON.stringify(imageMap, null, 2))
+fs.writeFileSync('./corpusMap.js', 'module.exports = ' + JSON.stringify(imageMap, null, 2))

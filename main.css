@@ -101,9 +101,11 @@ page-break-after: always;
 .item--thing {
   /*width: 24%;*/
   /*height: 14%;*/
-  border: 1px solid black;
-  float: left !important;
-  display: inline !important;
+  /*border: 1px solid black;*/
+  /*float: left !important;*/
+  display: inline-block;
+  margin: 5px;
+  padding: 12px;
 }
 
 .item--img {
