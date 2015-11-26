@@ -23,9 +23,9 @@ catalog.appendChild(usePage)
 
 
 
-// var sections = topics.forEach(function (topic, i) {
-//   catalog.appendChild(section(topic, i + 1, topics))
-// })
+var sections = topics.forEach(function (topic, i) {
+  catalog.appendChild(section(topic, i + 1, topics))
+})
 
 // make index? glossary? closing page?
 

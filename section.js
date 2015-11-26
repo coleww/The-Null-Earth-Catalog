@@ -1,4 +1,7 @@
-var pick = require('pick-random')
+var pick = function (arr) {
+  if (!arr || !arr.length) throw arr.join(' ')
+  return arr[~~(Math.random() * arr.length)]
+}
 var imageMap = require('./imageMap')
 var cap = require('capitalize')
 
@@ -25,7 +28,7 @@ module.exports = function (name, num, topics) {
   for (var i = 0; i < 4; i++) {
     var subImage = document.createElement('img')
     subImage.className = 'section--img'
-    subImage.src = pick(pick(imageMap)[0])[0]
+    subImage.src = pick(pick(imageMap))
     cover.appendChild(subImage)
 
     if (i == 1) {
@@ -43,12 +46,14 @@ module.exports = function (name, num, topics) {
 
     for (var j = 0; j < 20; j++) {
       var item = document.createElement('div')
-      item.className = 'item'
+      item.className = 'item--thing'
+      item.style.display = 'inline-block'
 
-      var actor = pick(actors)[0]
+
+      var actor = pick(actors)
       var itemImg = document.createElement('img')
       itemImg.className = 'item--img'
-      itemImg.src = pick(pick(imageMap)[0])[0]
+      itemImg.src = pick(pick(imageMap))
       item.appendChild(itemImg)
 
       var text = document.createElement('h' + (~~(Math.random() * 5) + 2))
@@ -58,6 +63,10 @@ module.exports = function (name, num, topics) {
       if (Math.random() < 0.75) {
         var summary = document.createElement('center')
         summary.textContent = actor((~~(Math.random() * 12) + 7))
+
+        item.style.border = ~~(Math.random() * 4) +  1 + 'px ' + pick(['dashed', 'solid']) + ' ' + pick(['black', 'gray'])
+        item.style.width = 15 + ~~(Math.random() * 9) + '%'
+        item.style.height = 9 + ~~(Math.random() * 5) + '%'
         item.appendChild(summary)
       } else if (Math.random() < 0.5) {
         var list = document.createElement('ol')
@@ -67,6 +76,9 @@ module.exports = function (name, num, topics) {
           el.textContent = actor((~~(Math.random() * 12) + 7))
           list.appendChild(el)
         })
+        item.style.border = ~~(Math.random() * 4) +  1 + 'px ' + pick(['dashed', 'solid']) + ' ' + pick(['black', 'gray'])
+        item.style.width = 15 + ~~(Math.random() * 9) + '%'
+        item.style.height = 10 + ~~(Math.random() * 7) + '%'
         item.appendChild(list)
       } else {
         var author = document.createElement('h5')
@@ -75,12 +87,24 @@ module.exports = function (name, num, topics) {
         opEd.textContent = [1,2,3,4,5,6,7,8,9,10,11,12].map(function (i) {
           return actor(i + ~~(Math.random() * 25))
         }).join('. ')
+        item.style.border = ~~(Math.random() * 4) +  1 + 'px ' + pick(['dashed', 'solid']) + ' ' + pick(['black', 'gray'])
+        item.style.width = 25 + ~~(Math.random() * 10) + '%'
+        item.style.height = 12 + ~~(Math.random() * 12) + '%'
         item.appendChild(author)
         item.appendChild(opEd)
       }
       page.appendChild(item)
     }
     section.appendChild(page)
+    section.appendChild(document.createElement('br'))
+    section.appendChild(document.createElement('br'))
+    section.appendChild(document.createElement('br'))
+    section.appendChild(document.createElement('br'))
+    section.appendChild(document.createElement('br'))
+    section.appendChild(document.createElement('br'))
+    section.appendChild(document.createElement('br'))
+    section.appendChild(document.createElement('br'))
+    section.appendChild(document.createElement('br'))
   }
   return section
 }

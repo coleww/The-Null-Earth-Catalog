@@ -105,14 +105,16 @@ body {
 ###################### item related classes ########################
 ####################################################################
 
-.item {
-  width: 24%;
-  height: 14%;
+.item--thing {
+  /*width: 24%;*/
+  /*height: 14%;*/
   border: 1px solid black;
+  float: left !important;
+  display: inline !important;
 }
 
 .item--img {
-  width: 66%;
+  width: 50%;
 }
 
 
