@@ -1,0 +1,12 @@
+module.exports = [
+  "I have desired to go",
+  "      Where springs not fail,",
+  "To fields where flies no sharp and sided hail",
+  "    And a few lilies blow.",
+  "",
+  "    And I have asked to be",
+  "      Where no storms come,",
+  "Where the green swell is in the havens dumb,",
+  "    And out of the swing of the sea.",
+  ""
+]

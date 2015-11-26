@@ -1,0 +1,21 @@
+module.exports = [
+  "THINE am I, my faithful Fair,",
+  "  Thine, my lovely Nancy;",
+  "Ev’ry pulse along my veins,",
+  "  Ev’ry roving fancy.",
+  "To thy bosom lay my heart,",
+  "  There to throb and languish;",
+  "Tho’ despair had wrung its core,",
+  "  That would heal its anguish.",
+  "",
+  "",
+  "Take away those rosy lips,",
+  "  Rich with balmy treasure;",
+  "Turn away thine eyes of love,",
+  "  Lest I die with pleasure!",
+  "What is life when wanting Love?",
+  "  Night without a morning:",
+  "Love’s the cloudless summer sun,",
+  "  Nature gay adorning.",
+  ""
+]

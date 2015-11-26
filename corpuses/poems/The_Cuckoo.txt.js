@@ -1,0 +1,22 @@
+module.exports = [
+  "THAT'S the cuckoo, you say. I cannot hear it.",
+  "When last I heard it I cannot recall; but I know",
+  "Too well the year when first I failed to hear it--",
+  "It was drowned by my man groaning out to his",
+  "    sheep \"Ho! Ho!\"",
+  "",
+  "Ten times with an angry voice he shouted",
+  "\"Ho! Ho!\" but not in anger, for that was his",
+  "    way.",
+  "He died that Summer, and that is how I remember",
+  "The cuckoo calling, the children listening, and me",
+  "    saying, \"Nay.\"",
+  "",
+  "And now, as you said, \"There it is,\" I was hearing",
+  "Not the cuckoo at all, but my man's \"Ho! Ho!\"",
+  "    instead.",
+  "And I think that even if I could lose my deafness",
+  "The cuckoo's note would be drowned by the voice",
+  "    of my dead.",
+  ""
+]

@@ -1,0 +1,22 @@
+module.exports = [
+  "Now first, as I shut the door,",
+  "  I was alone",
+  "In the new house; and the wind",
+  "  Began to moan.",
+  "",
+  "Old at once was the house,",
+  "  And I was old;",
+  "My ears were teased with the dread",
+  "  Of what was foretold,",
+  "",
+  "Nights of storm, days of mist, without end;",
+  "  Sad days when the sun",
+  "Shone in vain: old griefs and griefs",
+  "  Not yet begun.",
+  "",
+  "All was foretold me; naught",
+  "  Could I foresee;",
+  "But I learned how the wind would sound",
+  "  After these things should be.",
+  ""
+]

@@ -1,0 +1,20 @@
+module.exports = [
+  "Under the greenwood tree",
+  "Who loves to lie with me,",
+  "And turn his merry note",
+  "Unto the sweet bird's throat,",
+  "Come hither, come hither, come hither:",
+  "Here shall he see",
+  "No enemy",
+  "But winter and rough weather.",
+  "",
+  "Who doth ambition shun,",
+  "And loves to live i' the sun,",
+  "Seeking the food he eats,",
+  "And pleas'd with what he gets,",
+  "Come hither, come hither, come hither:",
+  "Here shall he see",
+  "No enemy",
+  "But winter and rough weather.",
+  ""
+]

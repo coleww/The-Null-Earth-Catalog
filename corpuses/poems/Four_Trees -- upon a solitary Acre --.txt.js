@@ -1,0 +1,22 @@
+module.exports = [
+  "Four Trees -- upon a solitary Acre --",
+  "Without Design",
+  "Or Order, or Apparent Action --",
+  "Maintain --",
+  "",
+  "The Sun -- upon a Morning meets them --",
+  "The Wind --",
+  "No nearer Neighbor -- have they --",
+  "But God --",
+  "",
+  "The Acre gives them -- Place --",
+  "They -- Him -- Attention of Passer by --",
+  "Of Shadow, or of Squirrel, haply --",
+  "Or Boy --",
+  "",
+  "What Deed is Theirs unto the General Nature --",
+  "What Plan",
+  "They severally -- retard -- or further --",
+  "Unknown --",
+  ""
+]

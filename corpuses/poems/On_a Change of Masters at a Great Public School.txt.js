@@ -1,0 +1,21 @@
+module.exports = [
+  "Where are those honours, IDA! once your own,",
+  "When Probus fill'd your magisterial throne?",
+  "As ancient Rome, fast falling to disgrace,",
+  "Hail'd a Barbarian in her Cæsar's place,",
+  "So you, degenerate, share as hard a fate,",
+  "And seat _Pomposus_ where your _Probus_ sate.",
+  "Of narrow brain, yet of a narrower soul,",
+  "Pomposus holds you in his harsh controul;",
+  "Pomposus, by no social virtue sway'd,",
+  "With florid jargon, and with vain parade;",
+  "With noisy nonsense, and new-fangled rules,",
+  "(Such as were ne'er before enforc'd in schools.)",
+  "Mistaking _pedantry_ for _learning's_ laws,",
+  "He governs, sanction'd but by self-applause;",
+  "With him the same dire fate, attending Rome,",
+  "Ill-fated Ida! soon must stamp your doom:",
+  "Like her o'erthrown, for ever lost to fame,",
+  "No trace of science left you, but the name,",
+  ""
+]

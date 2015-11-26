@@ -1,0 +1,22 @@
+module.exports = [
+  "When voices of children are heard on the green,",
+  "And whisperings are in the dale,",
+  "The days of my youth rise fresh in my mind,",
+  "My face turns green and pale.",
+  "",
+  "Then come home, my children, the sun is gone down,",
+  "And the dews of night arise;",
+  "Your spring and your day are wasted in play,",
+  "And your winter and night in disguise.",
+  " skies.\"",
+  "",
+  "\"No, no, let us play, for it is yet day,",
+  "  And we cannot go to sleep;",
+  "Besides, in the sky the little birds fly,",
+  "  And the hills are all covered with sheep.\"",
+  "\"Well, well, go and play till the light fades away,",
+  "  And then go home to bed.\"",
+  "The little ones leaped, and shouted, and laughed,",
+  "  And all the hills echoed.",
+  ""
+]

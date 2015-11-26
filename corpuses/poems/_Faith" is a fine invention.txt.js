@@ -1,0 +1,7 @@
+module.exports = [
+  "\"Faith\" is a fine invention",
+  "When Gentlemen can see --",
+  "But Microscopes are prudent",
+  "In an Emergency.",
+  ""
+]

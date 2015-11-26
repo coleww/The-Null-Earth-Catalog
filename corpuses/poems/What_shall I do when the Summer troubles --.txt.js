@@ -1,0 +1,22 @@
+module.exports = [
+  "What shall I do when the Summer troubles --",
+  "What, when the Rose is ripe --",
+  "What when the Eggs fly off in Music",
+  "From the Maple Keep?",
+  "",
+  "What shall I do when the Skies a'chirrup",
+  "Drop a Tune on me --",
+  "When the Bee hangs all Noon in the Buttercup",
+  "What will become of me?",
+  "",
+  "Oh, when the Squirrel fills His Pockets",
+  "And the Berries stare",
+  "How can I bear their jocund Faces",
+  "Thou from Here, so far?",
+  "",
+  "'Twouldn't afflict a Robin --",
+  "All His Goods have Wings --",
+  "I -- do not fly, so wherefore",
+  "My Perennial Things?",
+  ""
+]

@@ -1,0 +1,22 @@
+module.exports = [
+  "Besides the Autumn poets sing",
+  "A few prosaic days",
+  "A little this side of the snow",
+  "And that side of the Haze --",
+  "",
+  "A few incisive Mornings --",
+  "A few Ascetic Eves --",
+  "Gone -- Mr. Bryant's \"Golden Rod\" --",
+  "And Mr. Thomson's \"sheaves.\"",
+  "",
+  "Still, is the bustle in the Brook --",
+  "Sealed are the spicy valves --",
+  "Mesmeric fingers softly touch",
+  "The Eyes of many Elves --",
+  "",
+  "Perhaps a squirrel may remain --",
+  "My sentiments to share --",
+  "Grant me, Oh Lord, a sunny mind --",
+  "Thy windy will to bear!",
+  ""
+]

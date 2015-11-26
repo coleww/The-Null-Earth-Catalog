@@ -1,0 +1,13 @@
+module.exports = [
+  "FROM THE GREEK.",
+  "",
+  "A man who was about to hang himself,",
+  "Finding a purse, then threw away his rope;",
+  "The owner, coming to reclaim his pelf,",
+  "The halter found; and used it. So is Hope",
+  "Changed for Despair--one laid upon the shelf,",
+  "We take the other. Under Heaven's high cope",
+  "Fortune is God--all you endure and do",
+  "Depends on circumstance as much as you.",
+  ""
+]

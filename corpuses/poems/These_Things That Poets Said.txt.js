@@ -1,0 +1,22 @@
+module.exports = [
+  "THESE things that poets said",
+  "Of love seemed true to me",
+  "When I loved and I fed",
+  "On love and poetry equally.",
+  "",
+  "But now I wish I knew",
+  "If theirs were love indeed,",
+  "Or if mine were the true",
+  "And theirs some other lovely weed:",
+  "",
+  "For certainly not thus,",
+  "Then or thereafter, I",
+  "Loved ever. Between us",
+  "Decide, good Love, before I die.",
+  "",
+  "Only, that once I loved",
+  "By this one argument",
+  "Is very plainly proved:",
+  "I, loving not, am different.",
+  ""
+]

@@ -1,0 +1,20 @@
+module.exports = [
+  "There is no more for me to hope,",
+  "  There is no more for thee to fear;",
+  "And, if I give my Sorrow scope,",
+  "  That Sorrow thou shalt never hear.",
+  "  Why did I hold thy love so dear?",
+  "  Why shed for such a heart one tear?",
+  "Let deep and dreary silence be",
+  "My only memory of thee!",
+  "",
+  "When all are fled who flatter now,",
+  "  Save thoughts which will not flatter then;",
+  "And thou recall'st the broken vow",
+  "  To him who must not love again--",
+  "  Each hour of now forgotten years",
+  "  Thou, then, shalt number with thy tears;",
+  "And every drop of grief shall be",
+  "A vain remembrancer of me!",
+  ""
+]

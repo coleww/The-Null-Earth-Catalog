@@ -1,0 +1,11 @@
+module.exports = [
+  "Rough wind, that moanest loud",
+  "Grief too sad for song;",
+  "Wild wind, when sullen cloud",
+  "Knells all the night long;",
+  "Sad storm whose tears are vain,",
+  "Bare woods, whose branches strain,",
+  "Deep caves and dreary main,--",
+  "Wail, for the world's wrong!",
+  ""
+]

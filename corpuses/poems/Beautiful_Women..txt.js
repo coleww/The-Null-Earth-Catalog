@@ -1,0 +1,5 @@
+module.exports = [
+  "WOMEN sit, or move to and fro—some old, some young;",
+  "The young are beautiful—but the old are more beautiful than the young.",
+  ""
+]

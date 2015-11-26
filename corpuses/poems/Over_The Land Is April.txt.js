@@ -1,0 +1,23 @@
+module.exports = [
+  "OVER the land is April,",
+  "Over my heart a rose;",
+  "Over the high, brown mountain",
+  "The sound of singing goes.",
+  "Say, love, do you hear me,",
+  "Hear my sonnets ring?",
+  "Over the high, brown mountain,",
+  "Love, do you hear me sing?",
+  "",
+  "By highway, love, and byway",
+  "The snows succeed the rose.",
+  "Over the high, brown mountain",
+  "The wind of winter blows.",
+  "Say, love, do you hear me,",
+  "Hear my sonnets ring?",
+  "Over the high, brown mountain",
+  "I sound the song of spring,",
+  "I throw the flowers of spring.",
+  "Do you hear the song of spring?",
+  "Hear you the songs of spring?",
+  ""
+]

@@ -1,0 +1,21 @@
+module.exports = [
+  "Chorus—O aye my wife she dang me,",
+  "  An’ aft my wife she bang’d me,",
+  "If ye gie a woman a’ her will,",
+  "  Gude faith! she’ll soon o’er-gang ye.",
+  "",
+  "",
+  "ON peace an’ rest my mind was bent,",
+  "  And, fool I was! I married;",
+  "But never honest man’s intent",
+  "  Sane cursedly miscarried.",
+  "          O aye my wife, &c.",
+  "",
+  "",
+  "Some sairie comfort at the last,",
+  "  When a’ thir days are done, man,",
+  "My pains o’ hell on earth is past,",
+  "  I’m sure o’ bliss aboon, man,",
+  "          O aye my wife, &c.",
+  ""
+]

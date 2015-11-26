@@ -1,0 +1,22 @@
+module.exports = [
+  "Upon the road of my life,",
+  "Passed me many fair creatures,",
+  "Clothed all in white, and radiant.",
+  "To one, finally, I made speech:",
+  "\"Who art thou?\"",
+  "But she, like the others,",
+  "Kept cowled her face,",
+  "And answered in haste, anxiously,",
+  "\"I am good deed, forsooth;",
+  "You have often seen me.\"",
+  "\"Not uncowled,\" I made reply.",
+  "And with rash and strong hand,",
+  "Though she resisted,",
+  "I drew away the veil",
+  "And gazed at the features of vanity.",
+  "She, shamefaced, went on;",
+  "And after I had mused a time,",
+  "I said of myself,",
+  "\"Fool!\"",
+  ""
+]

@@ -1,0 +1,22 @@
+module.exports = [
+  "All the names I know from nurse:",
+  "Gardener's garters, Shepherd's purse,",
+  "Bachelor's buttons, Lady's smock,",
+  "And the Lady Hollyhock.",
+  "",
+  "Fairy places, fairy things,",
+  "Fairy woods where the wild bee wings,",
+  "Tiny trees for tiny dames--",
+  "These must all be fairy names!",
+  "",
+  "Tiny woods below whose boughs",
+  "Shady fairies weave a house;",
+  "Tiny tree-tops, rose or thyme,",
+  "Where the braver fairies climb!",
+  "",
+  "Fair are grown-up people's trees,",
+  "But the fairest woods are these;",
+  "Where, if I were not so tall,",
+  "I should live for good and all.",
+  ""
+]

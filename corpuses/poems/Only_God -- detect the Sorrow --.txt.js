@@ -1,0 +1,11 @@
+module.exports = [
+  "Only God -- detect the Sorrow --",
+  "Only God --",
+  "The Jehovahs -- are no Babblers --",
+  "Unto God --",
+  "God the Son -- Confide it --",
+  "Still secure --",
+  "God the Spirit's Honor --",
+  "Just as sure --",
+  ""
+]

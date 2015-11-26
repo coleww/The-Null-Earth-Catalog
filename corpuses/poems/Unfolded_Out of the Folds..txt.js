@@ -1,0 +1,23 @@
+module.exports = [
+  "UNFOLDED out of the folds of the woman, man comes unfolded, and is always to",
+  "  come unfolded;",
+  "Unfolded only out of the superbest woman of the earth, is to come the superbest",
+  "  man of the earth;",
+  "Unfolded out of the friendliest woman, is to come the friendliest man;",
+  "Unfolded only out of the perfect body of a woman, can a man be form’d of",
+  "  perfect body;",
+  "Unfolded only out of the inimitable poem of the woman, can come the poems of",
+  "  man—(only thence have my poems come;)",
+  "Unfolded out of the strong and arrogant woman I love, only thence can appear the",
+  "  strong and arrogant man I love;",
+  "Unfolded by brawny embraces from the well-muscled woman I love, only thence come",
+  "  the brawny embraces of the man;",
+  "Unfolded out of the folds of the woman’s brain, come all the folds of the",
+  "  man’s brain, duly obedient;",
+  "Unfolded out of the justice of the woman, all justice is unfolded;",
+  "Unfolded out of the sympathy of the woman is all sympathy:",
+  "A man is a great thing upon the earth, and through eternity—but every jot",
+  "  of the greatness of man is unfolded out of woman,",
+  "First the man is shaped in the woman, he can then be shaped in himself.",
+  ""
+]

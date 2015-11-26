@@ -1,0 +1,20 @@
+module.exports = [
+  "It is not the tear at this moment shed,",
+  "When the cold turf has just been laid o'er him,",
+  "That can tell how beloved was the friend that's fled,",
+  "Or how deep in our hearts we deplore him.",
+  "'Tis the tear, through many a long day wept,",
+  "'Tis life's whole path o'ershaded;",
+  "'Tis the one remembrance, fondly kept,",
+  "When all lighter griefs have faded.",
+  "",
+  "Thus his memory, like some holy light,",
+  "Kept alive in our hearts, will improve them,",
+  "For worth shall look fairer, and truth more bright,",
+  "When we think how he lived but to love them.",
+  "And as fresher flowers the sod perfume",
+  "Where buried saints are lying,",
+  "So our hearts shall borrow a sweetening bloom",
+  "From the image he left there in dying!",
+  ""
+]

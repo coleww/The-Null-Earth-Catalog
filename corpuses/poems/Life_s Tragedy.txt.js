@@ -1,0 +1,22 @@
+module.exports = [
+  "It may be misery not to sing at all,",
+  "And to go silent through the brimming day;",
+  "It may be misery never to be loved,",
+  "But deeper griefs than these beset the way.",
+  "",
+  "To sing the perfect song,",
+  "And by a half-tone lost the key,",
+  "There the potent sorrow, there the grief,",
+  "The pale, sad staring of Life's Tragedy.",
+  "",
+  "To have come near to the perfect love,",
+  "Not the hot passion of untempered youth,",
+  "But that which lies aside its vanity,",
+  "And gives, for thy trusting worship, truth.",
+  "",
+  "This, this indeed is to be accursed,",
+  "For if we mortals love, or if we sing,",
+  "We count our joys not by what we have,",
+  "But by what kept us from that perfect thing.",
+  ""
+]

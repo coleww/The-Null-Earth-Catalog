@@ -1,0 +1,22 @@
+module.exports = [
+  "I NEVER had noticed it until",
+  "'Twas gone,--the narrow copse",
+  "Where now the woodman lops",
+  "The last of the willows with his bill.",
+  "",
+  "It was not more than a hedge overgrown.",
+  "One meadow's breadth away",
+  "I passed it day by day.",
+  "Now the soil was bare as a bone,",
+  "",
+  "And black betwixt two meadows green,",
+  "Though fresh-cut faggot ends",
+  "Of hazel made some amends",
+  "With a gleam as if flowers they had been.",
+  "",
+  "Strange it could have hidden so near!",
+  "And now I see as I look",
+  "That the small winding brook,",
+  "A tributary's tributary, rises there.",
+  ""
+]

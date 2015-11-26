@@ -1,0 +1,20 @@
+module.exports = [
+  "Pluck not the wayside flower,",
+  "It is the traveller's dower;",
+  "A thousand passers-by",
+  "Its beauties may espy,",
+  "May win a touch of blessing",
+  "From Nature's mild caressing.",
+  "The sad of heart perceives",
+  "A violet under leaves",
+  "Like sonic fresh-budding hope;",
+  "The primrose on the slope",
+  "A spot of sunshine dwells,",
+  "And cheerful message tells",
+  "Of kind renewing power;",
+  "The nodding bluebell's dye",
+  "Is drawn from happy sky.",
+  "Then spare the wayside flower!",
+  "It is the traveller's dower.",
+  ""
+]

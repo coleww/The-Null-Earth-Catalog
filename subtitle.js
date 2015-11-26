@@ -1,6 +1,6 @@
 var q = require('queneau-buckets')()
-q.seed(fs.readFileSync('./corpuses/subtitles').toString().split('\n'))
+q.seed(require('./corpuses/subtitles'))
 
 module.exports = function () {
-  return q.fill(~~(Math.random() * 3)).toUpperCase()
+  return q.fill(~~(Math.random() * 3) + 1).toUpperCase()
 }

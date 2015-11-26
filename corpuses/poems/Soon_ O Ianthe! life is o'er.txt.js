@@ -1,0 +1,7 @@
+module.exports = [
+  "Soon, O Ianthe! life is o'er,",
+  "And sooner beauty's heavenly smile:",
+  "Grant only (and I ask no more),",
+  "Let love remain that little while.",
+  ""
+]

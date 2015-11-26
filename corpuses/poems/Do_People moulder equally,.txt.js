@@ -1,0 +1,22 @@
+module.exports = [
+  "Do People moulder equally,",
+  "They bury, in the Grave?",
+  "I do believe a Species",
+  "As positively live",
+  "",
+  "As I, who testify it",
+  "Deny that I -- am dead --",
+  "And fill my Lungs, for Witness --",
+  "From Tanks -- above my Head --",
+  "",
+  "I say to you, said Jesus --",
+  "That there be standing here --",
+  "A Sort, that shall not taste of Death --",
+  "If Jesus was sincere --",
+  "",
+  "I need no further Argue --",
+  "That statement of the Lord",
+  "Is not a controvertible --",
+  "He told me, Death was dead --",
+  ""
+]

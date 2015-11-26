@@ -1,0 +1,22 @@
+module.exports = [
+  "A Pit -- but Heaven over it --",
+  "And Heaven beside, and Heaven abroad,",
+  "And yet a Pit --",
+  "With Heaven over it.",
+  "",
+  "To stir would be to slip --",
+  "To look would be to drop --",
+  "To dream -- to sap the Prop",
+  "That holds my chances up.",
+  "Ah!  Pit!  With Heaven over it!",
+  "",
+  "The depth is all my thought --",
+  "I dare not ask my feet --",
+  "'Twould start us where we sit",
+  "So straight you'd scarce suspect",
+  "It was a Pit -- with fathoms under it --",
+  "Its Circuit just the same.",
+  "Seed -- summer -- tomb --",
+  "Whose Doom to whom?",
+  ""
+]

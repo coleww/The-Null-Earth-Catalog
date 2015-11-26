@@ -1,0 +1,22 @@
+module.exports = [
+  "Here once engaged the stranger's view",
+  "  Young Friendship's record simply trac'd;",
+  "Few were her words,--but yet, though few,",
+  "  Resentment's hand the line defac'd.",
+  "",
+  "Deeply she cut--but not eras'd--",
+  "  The characters were still so plain,",
+  "That Friendship once return'd, and gaz'd,--",
+  "  Till Memory hail'd the words again.",
+  "",
+  "Repentance plac'd them as before;",
+  "  Forgiveness join'd her gentle name;",
+  "So fair the inscription seem'd once more,",
+  "  That Friendship thought it still the same.",
+  "",
+  "Thus might the Record now have been;",
+  "  But, ah, in spite of Hope's endeavour,",
+  "Or Friendship's tears, Pride rush'd between,",
+  "  And blotted out the line for ever.",
+  ""
+]

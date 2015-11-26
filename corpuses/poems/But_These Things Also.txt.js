@@ -1,0 +1,22 @@
+module.exports = [
+  "BUT these things also are Spring's--",
+  "On banks by the roadside the grass",
+  "Long-dead that is greyer now",
+  "Than all the Winter it was;",
+  "",
+  "The shell of a little snail bleached",
+  "In the grass; chip of flint, and mite",
+  "Of chalk; and the small birds' dung",
+  "In splashes of purest white:",
+  "",
+  "All the white things a man mistakes",
+  "For earliest violets",
+  "Who seeks through Winter's ruins",
+  "Something to pay Winter's debts,",
+  "",
+  "While the North blows, and starling flocks",
+  "By chattering on and on",
+  "Keep their spirits up in the mist,",
+  "And Spring's here, Winter's not gone.",
+  ""
+]

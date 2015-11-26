@@ -1,0 +1,23 @@
+module.exports = [
+  "UP to battle! Sons of Suli",
+  "Up, and do your duty duly!",
+  "There the wall--and there the Moat is:",
+  "Bouwah! Bouwah! Suliotes!",
+  "There is booty--there is Beauty,",
+  "Up my boys and do your duty.",
+  "",
+  "By the sally and the rally",
+  "Which defied the arms of Ali;",
+  "By your own dear native Highlands,",
+  "By your children in the islands,",
+  "Up and charge, my Stratiotes,",
+  "Bouwah!--Bouwah!--Suliotes!",
+  "",
+  "As our ploughshare is the Sabre:",
+  "Here's the harvest of our labour;",
+  "For behind those battered breaches",
+  "Are our foes with all their riches:",
+  "There is Glory--there is plunder--",
+  "Then away despite of thunder!",
+  ""
+]

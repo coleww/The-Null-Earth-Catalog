@@ -1,0 +1,22 @@
+module.exports = [
+  "The coach is at the door at last;",
+  "The eager children, mounting fast",
+  "And kissing hands, in chorus sing:",
+  "Good-bye, good-bye, to everything!",
+  "",
+  "To house and garden, field and lawn,",
+  "The meadow-gates we swang upon,",
+  "To pump and stable, tree and swing,",
+  "Good-bye, good-bye, to everything!",
+  "",
+  "And fare you well for evermore,",
+  "O ladder at the hayloft door,",
+  "O hayloft where the cobwebs cling,",
+  "Good-bye, good-bye, to everything!",
+  "",
+  "Crack goes the whip, and off we go;",
+  "The trees and houses smaller grow;",
+  "Last, round the woody turn we sing:",
+  "Good-bye, good-bye, to everything!",
+  ""
+]

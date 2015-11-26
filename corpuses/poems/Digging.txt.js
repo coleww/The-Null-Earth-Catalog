@@ -1,0 +1,22 @@
+module.exports = [
+  "TO-DAY I think",
+  "Only with scents,--scents dead leaves yield,",
+  "And bracken, and wild carrot's seed,",
+  "And the square mustard field;",
+  "",
+  "Odours that rise",
+  "When the spade wounds the root of tree,",
+  "Rose, currant, raspberry, or goutweed,",
+  "Rhubarb or celery;",
+  "",
+  "The smoke's smell, too,",
+  "Flowing from where a bonfire burns",
+  "The dead, the waste, the dangerous,",
+  "And all to sweetness turns.",
+  "",
+  "It is enough",
+  "To smell, to crumble the dark earth.",
+  "While the robin sings over again",
+  "Sad songs of Autumn mirth.",
+  ""
+]

@@ -1,0 +1,20 @@
+module.exports = [
+  "I heard thy fate without a tear,",
+  "  Thy loss with scarce a sigh;",
+  "And yet thou wast surpassing dear,",
+  "  Too loved of all to die.",
+  "I know not what hath seared my eye--",
+  "  Its tears refuse to start;",
+  "But every drop, it bids me dry,",
+  "  Falls dreary on my heart.",
+  "",
+  "Yes, dull and heavy, one by one,",
+  "  They sink and turn to care,",
+  "As caverned waters wear the stone,",
+  "  Yet dropping harden there:",
+  "They cannot petrify more fast,",
+  "  Than feelings sunk remain,",
+  "Which coldly fixed regard the past,",
+  "  But never melt again.",
+  ""
+]

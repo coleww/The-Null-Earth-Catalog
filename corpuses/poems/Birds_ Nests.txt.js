@@ -1,0 +1,22 @@
+module.exports = [
+  "THE summer nests uncovered by autumn wind.",
+  "Some torn, others dislodged, all dark.",
+  "Everyone sees them: low or high in tree,",
+  "Or hedge, or single bush, they hang like a mark.",
+  "",
+  "Since there's no need of eyes to see them with",
+  "I cannot help a little shame",
+  "That I missed most, even at eye's level, till",
+  "The leaves blew off and made the seeing no game.",
+  "",
+  "'Tis a light pang. I like to see the nests",
+  "Still in their places, now first known,",
+  "At home and by far roads. Boys knew them not,",
+  "Whatever jays and squirrels may have done.",
+  "",
+  "And most I like the winter nests deep-hid",
+  "That leaves and berries fell into;",
+  "Once a dormouse dined there on hazel-nuts,",
+  "And grass and goose-grass seeds found soil and grew.",
+  ""
+]

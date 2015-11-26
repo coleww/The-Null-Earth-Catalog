@@ -1,0 +1,22 @@
+module.exports = [
+  "WHEN icicles hang by the wall,",
+  "   And Dick the shepherd blows his nail,",
+  "And Tom bears logs into the hall,",
+  "   And milk comes frozen home in pail,",
+  "When blood is nipp'd, and ways be foul,",
+  "Then nightly sings the staring owl,",
+  "   To-whit!",
+  "To-who!--a merry note,",
+  "While greasy Joan doth keel the pot.",
+  "",
+  "When all aloud the wind doe blow,",
+  "   And coughing drowns the parson's saw,",
+  "And birds sit brooding in the snow,",
+  "   And Marian's nose looks red and raw,",
+  "When roasted crabs hiss in the bowl,",
+  "Then nightly sings the staring owl,",
+  "   To-whit!",
+  "To-who!--a merry note,",
+  "While greasy Joan doth keel the pot.",
+  ""
+]

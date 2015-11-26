@@ -1,0 +1,22 @@
+module.exports = [
+  "    Infant' graves are steps of angels, where",
+  "      Earth's brightest gems of innocence repose.",
+  "    God is their parent, and they need no tear;",
+  "      He takes them to His bosom from earth's woes,",
+  "    A bud their lifetime and a flower their close.",
+  "      Their spirits are an Iris of the skies,",
+  "    Needing no prayers; a sunset's happy close.",
+  "      Gone are the bright rays of their soft blue eyes;",
+  "Flowers weep in dew-drops oer them, and the gale gently sighs",
+  "",
+  "    Their lives were nothing but a sunny shower,",
+  "      Melting on flowers as tears melt from the eye.",
+  "    Their deaths were dew-drops on Heaven's amaranth bower,",
+  "      And tolled on flowers as Summer gales went by.",
+  "    They bowed and trembled, and they left no sigh,",
+  "      And the sun smiled to show their end was well.",
+  "    Infants have nought to weep for ere they die;",
+  "      All prayers are needless, beads they need not tell,",
+  "White flowers their mourners are, Nature their passing bell.",
+  ""
+]

@@ -1,0 +1,7 @@
+module.exports = [
+  "One sung of thee who left the tale untold,",
+  "Like the false dawns which perish in the bursting;",
+  "Like empty cups of wrought and daedal gold,",
+  "Which mock the lips with air, when they are thirsting.",
+  ""
+]

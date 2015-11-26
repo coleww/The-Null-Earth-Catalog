@@ -1,0 +1,23 @@
+module.exports = [
+  "A great Hope fell",
+  "You heard no noise",
+  "The Ruin was within",
+  "Oh cunning wreck that told no tale",
+  "And let no Witness in",
+  "",
+  "The mind was built for mighty Freight",
+  "For dread occasion planned",
+  "How often foundering at Sea",
+  "Ostensibly, on Land",
+  "",
+  "A not admitting of the wound",
+  "Until it grew so wide",
+  "That all my Life had entered it",
+  "And there were troughs beside",
+  "",
+  "A closing of the simple lid",
+  "That opened to the sun",
+  "Until the tender Carpenter",
+  "Perpetual nail it down --",
+  ""
+]

@@ -1,0 +1,22 @@
+module.exports = [
+  "OFTEN and often it came back again",
+  "To mind, the day I passed the horizon ridge",
+  "To a new country, the path I had to find",
+  "By half-gaps that were stiles once in the hedge,",
+  "The pack of scarlet clouds running across",
+  "The harvest evening that seemed endless then",
+  "And after, and the inn where all were kind,",
+  "All were strangers. I did not know my loss",
+  "Till one day twelve months later suddenly",
+  "I leaned upon my spade and saw it all,",
+  "Though far beyond the sky-line. It became",
+  "Almost a habit through the year for me",
+  "To lean and see it and think to do the same",
+  "Again for two days and a night. Recall",
+  "Was vain: no more could the restless brook",
+  "Ever turn back and climb the waterfall",
+  "To the lake that rests and stirs not in its nook,",
+  "As in the hollow of the collar-bone",
+  "Under the mountain's head of rush and stone.",
+  ""
+]

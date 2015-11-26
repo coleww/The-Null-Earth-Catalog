@@ -1,0 +1,20 @@
+module.exports = [
+  "My prayers must meet a brazen heaven",
+  "And fail and scatter all away.",
+  "Unclean and seeming unforgiven",
+  "My prayers I scarcely call to pray.",
+  "I cannot buoy my heart above;",
+  "Above I cannot entrance win.",
+  "I reckon precedents of love,",
+  "But feel the long success of sin.",
+  "",
+  "My heaven is brass and iron my earth:",
+  "Yea, iron is mingled with my clay,",
+  "So harden'd is it in this dearth",
+  "Which praying fails to do away.",
+  "Nor tears, nor tears this clay uncouth",
+  "Could mould, if any tears there were.",
+  "A warfare of my lips in truth,",
+  "Battling with God, is now my prayer.",
+  ""
+]

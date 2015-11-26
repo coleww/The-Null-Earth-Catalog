@@ -17,7 +17,11 @@ var subtitle = document.createElement('div')
 subtitle.className = 'cover--subtitle'
 subtitle.textContent = makeSubtitle()
 coverPage.appendChild(subtitle)
-var imgPath = './imgs/earth_from_space' + pick(fs.readdirSync('./imgs/earth_from_space'))[0]
+
+// TODO:
+// FIGURE OUT SOME EASY NAMING SYSTEM? just 1-5 for each? limit to 1 filetype hrmmmm
+// OR just write fs script to export a map of the fs
+var imgPath = './imgs/earth_from_space/demo.jpg'// + pick(fs.readdirSync('./imgs/earth_from_space'))[0]
 var theEarth = document.createElement('img')
 theEarth.className = 'cover--img'
 theEarth.src = imgPath
@@ -44,3 +48,4 @@ var sections = topics.forEach(function (topic, i) {
 
 
 
+document.body.appendChild(catalog)

@@ -1,0 +1,22 @@
+module.exports = [
+  "I HAVE come a long way to-day:",
+  "On a strange bridge alone,",
+  "Remembering friends, old friends,",
+  "I rest, without smile or moan,",
+  "As they remember me without smile or moan.",
+  "",
+  "All are behind, the kind",
+  "And the unkind too, no more",
+  "To-night than a dream. The stream",
+  "Runs softly yet drowns the Past,",
+  "The dark-lit stream has drowned the Future and the",
+  "   Past.",
+  "",
+  "No traveller has rest more blest",
+  "Than this moment brief between",
+  "Two lives, when the Night's first lights",
+  "And shades hide what has never been,",
+  "Things goodlier, lovelier, dearer, than will be or have",
+  "   been.",
+  ""
+]

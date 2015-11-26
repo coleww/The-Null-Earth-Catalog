@@ -1,0 +1,22 @@
+module.exports = [
+  "WOMEN he liked, did shovel-bearded Bob,",
+  "Old Farmer Hayward of the Heath, but he",
+  "Loved horses. He himself was like a cob,",
+  "And leather-coloured. Also he loved a tree.",
+  "",
+  "For the life in them he loved most living things,",
+  "But a tree chiefly. All along the lane",
+  "He planted elms where now the stormcock sings",
+  "That travellers hear from the slow-climbing train.",
+  "",
+  "Till then the track had never had a name",
+  "For all its thicket and the nightingales",
+  "That should have earned it. No one was to blame.",
+  "To name a thing beloved man sometimes fails.",
+  "",
+  "Many years since, Bob Hayward died, and now",
+  "None passes there because the mist and the rain",
+  "Out of the elms have turned the lane to slough",
+  "And gloom, the name alone survives, Bob's Lane.",
+  ""
+]

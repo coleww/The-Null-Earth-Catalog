@@ -1,0 +1,13 @@
+module.exports = ["access to tools",
+"the height of privilege",
+"trust no one",
+"there is no authority but yourself",
+"question everything",
+"the truth is out there",
+"i want to believe",
+"may the force be with you",
+"let us pray",
+"zen and the art of website maintenance",
+"bobbing for apples",
+"diary of a monster",
+"skittles and apocalyptic social movements"]

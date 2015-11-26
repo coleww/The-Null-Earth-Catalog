@@ -1,0 +1,22 @@
+module.exports = [
+  "Oh, talk not to me of a name great in story--",
+  "The days of our Youth are the days of our glory;",
+  "And the myrtle and ivy of sweet two-and-twenty",
+  "Are worth all your laurels, though ever so plenty.",
+  "",
+  "What are garlands and crowns to the brow that is wrinkled?",
+  "Tis but as a dead flower with May-dew besprinkled:",
+  "Then away with all such from the head that is hoary,",
+  "What care I for the wreaths that can _only_ give glory?",
+  "",
+  "Oh Fame!--if I e'er took delight in thy praises,",
+  "'Twas less for the sake of thy high-sounding phrases,",
+  "Than to see the bright eyes of the dear One discover,",
+  "She thought that I was not unworthy to love her.",
+  "",
+  "_There_ chiefly I sought thee, _there_ only I found thee;",
+  "Her Glance was the best of the rays that surround thee,",
+  "When it sparkled o'er aught that was bright in my story,",
+  "I knew it was Love, and I felt it was Glory.",
+  ""
+]

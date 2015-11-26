@@ -1,0 +1,22 @@
+module.exports = [
+  "Ah! sweet is the moonbeam that sleeps on yon fountain,",
+  "And sweet the mild rush of the soft-sighing breeze,",
+  "And sweet is the glimpse of yon dimly-seen mountain,",
+  "'Neath the verdant arcades of yon shadowy trees.",
+  "",
+  "But sweeter than all was thy tone of affection,",
+  "Which scarce seemed to break on the stillness of eve,",
+  "Though the time it is past!--yet the dear recollection,",
+  "For aye in the heart of thy  must live.",
+  "",
+  "Yet he hears thy dear voice in the summer winds sighing,",
+  "Mild accents of happiness lisp in his ear,",
+  "When the hope-winged moments athwart him are flying,",
+  "And he thinks of the friend to his bosom so dear.--",
+  "",
+  "And thou dearest friend in his bosom for ever",
+  "Must reign unalloyed by the fast rolling year,",
+  "He loves thee, and dearest one never, Oh! never",
+  "Canst thou cease to be loved by a heart so sincere.",
+  ""
+]

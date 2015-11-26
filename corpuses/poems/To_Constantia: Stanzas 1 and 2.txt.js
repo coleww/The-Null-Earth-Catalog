@@ -1,0 +1,21 @@
+module.exports = [
+  "As restored by Mr. C.D. Locock.",
+  "",
+  "Cease, cease--for such wild lessons madmen learn",
+  "Thus to be lost, and thus to sink and die",
+  "Perchance were death indeed!--Constantia turn",
+  "In thy dark eyes a power like light doth lie",
+  "Even though the sounds its voice that were",
+  "Between  lips are laid to sleep:",
+  "Within thy breath, and on thy hair",
+  "Like odour, it is  yet",
+  "And from thy touch like fire doth leap--",
+  "Even while I write, my burning cheeks are wet--",
+  "Alas, that the torn heart can bleed but not forget.",
+  "",
+  " breathless awe like the swift change",
+  "Of dreams unseen but felt in youthful slumbers",
+  "Wild sweet yet incommunicably strange",
+  "Thou breathest now in fast ascending numbers...",
+  ""
+]

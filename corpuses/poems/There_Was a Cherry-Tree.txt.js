@@ -1,0 +1,22 @@
+module.exports = [
+  "There was a cherry-tree. Its bloomy snows",
+  "Cool even now the fevered sight that knows",
+  "No more its airy visions of pure joy --",
+  "As when you were a boy.",
+  "",
+  "There was a cherry-tree. The Bluejay sat",
+  "His blue against its white -- O blue as jet",
+  "He seemed there then!-- But now -- Whoever knew",
+  "He was so pale a blue!",
+  "",
+  "There was a cherry-tree -- our child-eyes saw",
+  "The miracle:-- Its pure white snows did thaw",
+  "Into a crimson fruitage, far too sweet",
+  "But for a boy to eat.",
+  "",
+  "There was a cherry-tree, give thanks and joy!--",
+  "There was a bloom of snow -- There was a boy --",
+  "There was a bluejay of the realest blue --",
+  "And fruit for both of you.",
+  ""
+]

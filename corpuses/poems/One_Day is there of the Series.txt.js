@@ -1,0 +1,22 @@
+module.exports = [
+  "One Day is there of the Series",
+  "Termed Thanksgiving Day.",
+  "Celebrated part at Table",
+  "Part in Memory.",
+  "",
+  "Neither Patriarch nor Pussy",
+  "I dissect the Play",
+  "Seems it to my Hooded thinking",
+  "Reflex Holiday.",
+  "",
+  "Had there been no sharp Subtraction",
+  "From the early Sum --",
+  "Not an Acre or a Caption",
+  "Where was once a Room --",
+  "",
+  "Not a Mention, whose small Pebble",
+  "Wrinkled any Sea,",
+  "Unto Such, were such Assembly",
+  "'Twere Thanksgiving Day.",
+  ""
+]

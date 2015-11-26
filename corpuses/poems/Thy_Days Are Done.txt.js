@@ -1,0 +1,23 @@
+module.exports = [
+  "Thy days are done, thy fame begun;",
+  "  Thy country's strains record",
+  "The triumphs of her chosen Son,",
+  "  The slaughters of his sword!",
+  "The deeds he did, the fields he won,",
+  "  The freedom he restored!",
+  "",
+  "Though thou art fall'n, while we are free",
+  "  Thou shall not taste of death!",
+  "The generous blood that flowed from thee",
+  "  Disdained to sink beneath:",
+  "Within our veins its currents be,",
+  "  Thy spirit on our breath!",
+  "",
+  "Thy name, our charging hosts along,",
+  "  Shall be the battle-word!",
+  "Thy fall, the theme of choral song",
+  "  From virgin voices poured!",
+  "To weep would do thy glory wrong:",
+  "  Thou shalt not be deplored.",
+  ""
+]

@@ -1,0 +1,12 @@
+module.exports = [
+  "To lose one's faith -- surpass",
+  "The loss of an Estate --",
+  "Because Estates can be",
+  "Replenished -- faith cannot --",
+  "",
+  "Inherited with Life --",
+  "Belief -- but once -- can be --",
+  "Annihilate a single clause --",
+  "And Being's -- Beggary --",
+  ""
+]

@@ -1,0 +1,22 @@
+module.exports = [
+  "This Band, which bound thy yellow hair",
+  "  Is mine, sweet girl! thy pledge of love;",
+  "It claims my warmest, dearest care,",
+  "  Like relics left of saints above.",
+  "",
+  "Oh! I will wear it next my heart;",
+  "  'Twill bind my soul in bonds to thee:",
+  "From me again 'twill ne'er depart,",
+  "  But mingle in the grave with me.",
+  "",
+  "The dew I gather from thy lip",
+  "  Is not so dear to me as this;",
+  "_That_ I but for a moment sip,",
+  "  And banquet on a transient bliss:",
+  "",
+  "_This_ will recall each youthful scene,",
+  "  E'en when our lives are on the wane;",
+  "The leaves of Love will still be green",
+  "  When Memory bids them bud again.",
+  ""
+]

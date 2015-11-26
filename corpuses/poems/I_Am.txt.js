@@ -1,0 +1,23 @@
+module.exports = [
+  "I AM: yet what I am none cares or knows,",
+  "  My friends forsake me like a memory lost;",
+  "I am the self-consumer of my woes,",
+  "  They rise and vanish in oblivious host,",
+  "Like shades in love and death's oblivion lost;",
+  "And yet I am, and live with shadows tost",
+  "",
+  "Into the nothingness of scorn and noise,",
+  "  Into the living sea of waking dreams,",
+  "Where there is neither sense of life nor joys,",
+  "  But the vast shipwreck of my life's esteems;",
+  "And een the dearest--that I loved the best--",
+  "Are strange--nay, rather stranger than the rest.",
+  "",
+  "I long for scenes where man has never trod;",
+  "  A place where woman never smiled or wept;",
+  "There to abide with my Creator, GOD,",
+  "  And sleep as I in childhood sweetly slept:",
+  "Untroubling and untroubled where I lie;",
+  "The grass below--above the vaulted sky.",
+  ""
+]

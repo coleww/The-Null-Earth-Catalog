@@ -1,0 +1,13 @@
+module.exports = [
+  "THIS ploughman dead in battle slept out of doors",
+  "Many a frozen night, and merrily",
+  "Answered staid drinkers, good bedmen, and all",
+  "    bores:",
+  "\"At Mrs. Greenland's Hawthorn Bush,\" said he,",
+  "\"I slept.\" None knew which bush. Above the",
+  "    town,",
+  "Beyond \"The Drover,\" a hundred spot the down",
+  "In Wiltshire. And where now at last he sleeps",
+  "More sound in France--that, too, he secret keeps.",
+  ""
+]

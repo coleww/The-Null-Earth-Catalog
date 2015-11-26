@@ -1,0 +1,23 @@
+module.exports = [
+  "WHAT shall I give my daughter the younger",
+  "More than will keep her from cold and hunger?",
+  "I shall not give her anything.",
+  "If she shared South Weald and Havering,",
+  "Their acres, the two brooks running between,",
+  "Paine's Brook and Weald Brook,",
+  "With pewit, woodpecker, swan, and rook,",
+  "She would be no richer than the queen",
+  "Who once on a time sat in Havering Bower",
+  "Alone, with the shadows, pleasure and power.",
+  "She could do no more with Samarcand,",
+  "Or the mountains of a mountain land",
+  "And its far white house above cottages",
+  "Like Venus above the Pleiades.",
+  "Her small hands I would not cumber",
+  "With so many acres and their lumber,",
+  "But leave her Steep and her own world",
+  "And her spectacled self with hair uncurled,",
+  "Wanting a thousand little things",
+  "That time without contentment brings.",
+  ""
+]

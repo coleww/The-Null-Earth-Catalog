@@ -1,0 +1,20 @@
+module.exports = [
+  "Since, Lord, to thee",
+  "A narrow way and little gate",
+  "Is all the passage, on my infancy",
+  "Thou didst lay hold, and antedate",
+  "My faith in me.",
+  "",
+  "O let me still",
+  "Write thee great God, and me a child:",
+  "Let me be soft and supple to thy will,",
+  "Small to my self, to others mild,",
+  "Behither ill.",
+  "",
+  "Although by stealth",
+  "My flesh get on, yet let her sister",
+  "My soul bid nothing, but preserve her wealth:",
+  "The growth of flesh is but a blister;",
+  "Childhood is health.",
+  ""
+]

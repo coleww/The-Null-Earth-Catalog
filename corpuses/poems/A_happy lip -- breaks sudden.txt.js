@@ -1,0 +1,11 @@
+module.exports = [
+  "A happy lip -- breaks sudden --",
+  "It doesn't state you how",
+  "It contemplated -- smiling --",
+  "Just consummated -- now --",
+  "But this one, wears its merriment",
+  "So patient -- like a pain --",
+  "Fresh gilded -- to elude the eyes",
+  "Unqualified, to scan --",
+  ""
+]

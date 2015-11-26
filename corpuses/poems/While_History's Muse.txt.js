@@ -1,0 +1,22 @@
+module.exports = [
+  "While History's Muse the memorial was keeping",
+  "Of all that the dark hand of Destiny weaves,",
+  "Beside her the Genius of Erin stood weeping,",
+  "For hers was the story that blotted the leaves.",
+  "But oh! how the tear in her eyelids grew bright,",
+  "When, after whole pages of sorrow and shame,",
+  "She saw History write,",
+  "With a pencil of light",
+  "That illumed the whole volume, her Wellington's name.",
+  "",
+  "\"Yet still the last crown of thy toils is remaining,",
+  "The grandest, the purest, even thou hast yet known;",
+  "Though proud was thy task, other nations unchaining,",
+  "Far prouder to heal the deep wounds of thy own.",
+  "At the foot of that throne, for whose weal thou hast stood,",
+  "Go, plead for the land that first cradled thy fame,",
+  "And, bright o'er the flood",
+  "Of her tears, and her blood,",
+  "Let the rainbow of Hope be her Wellington's name.\"",
+  ""
+]

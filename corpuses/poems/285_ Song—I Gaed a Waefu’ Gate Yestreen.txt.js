@@ -1,0 +1,21 @@
+module.exports = [
+  "I GAED a waefu’ gate yestreen,",
+  "  A gate, I fear, I’ll dearly rue;",
+  "I gat my death frae twa sweet een,",
+  "  Twa lovely een o’bonie blue.",
+  "’Twas not her golden ringlets bright,",
+  "  Her lips like roses wat wi’ dew,",
+  "Her heaving bosom, lily-white—",
+  "  It was her een sae bonie blue.",
+  "",
+  "",
+  "She talk’d, she smil’d, my heart she wyl’d;",
+  "  She charm’d my soul I wist na how;",
+  "And aye the stound, the deadly wound,",
+  "  Cam frae her een so bonie blue.",
+  "But “spare to speak, and spare to speed;”",
+  "  She’ll aiblins listen to my vow:",
+  "Should she refuse, I’ll lay my dead",
+  "  To her twa een sae bonie blue.",
+  ""
+]

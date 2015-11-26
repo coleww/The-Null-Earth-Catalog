@@ -1,0 +1,22 @@
+module.exports = [
+  "THE clouds that are so light,",
+  "Beautiful, swift and bright,",
+  "Cast shadows on field and park",
+  "Of the earth that is so dark,",
+  "",
+  "And even so now, light one!",
+  "Beautiful, swift and bright one!",
+  "You let fall on a heart that was dark,",
+  "Unillumined, a deeper mark.",
+  "",
+  "But clouds would have, without earth",
+  "To shadow, far less worth:",
+  "Away from your shadow on me",
+  "Your beauty less would be,",
+  "",
+  "And if it still be treasured",
+  "An age hence, it shall be measured",
+  "By this small dark spot",
+  "Without which it were not.",
+  ""
+]

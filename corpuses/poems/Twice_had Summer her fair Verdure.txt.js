@@ -1,0 +1,12 @@
+module.exports = [
+  "Twice had Summer her fair Verdure",
+  "Proffered to the Plain --",
+  "Twice a Winter's silver Fracture",
+  "On the Rivers been --",
+  "",
+  "Two full Autumns for the Squirrel",
+  "Bounteous prepared --",
+  "Nature, Had'st thou not a Berry",
+  "For thy wandering Bird?",
+  ""
+]

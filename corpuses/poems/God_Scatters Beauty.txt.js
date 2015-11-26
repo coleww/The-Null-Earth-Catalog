@@ -1,0 +1,7 @@
+module.exports = [
+  "God scatters beauty as he scatters flowers",
+  "O'er the wide earth, and tells us all are ours.",
+  "A hundred lights in every temple burn,",
+  "And at each shrine I bend my knee in turn.",
+  ""
+]

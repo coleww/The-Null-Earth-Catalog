@@ -1,0 +1,21 @@
+module.exports = [
+  "BRIGHT clouds of may",
+  "Shade half the pond.",
+  "Beyond,",
+  "All but one bay",
+  "Of emerald",
+  "Tall reeds",
+  "Like criss-cross bayonets",
+  "Where a bird once called,",
+  "Lies bright as the sun.",
+  "No one heeds.",
+  "The light wind frets",
+  "And drifts the scum",
+  "Of may-blossom.",
+  "Till the moorhen calls",
+  "Again",
+  "Naught's to be done",
+  "By birds or men.",
+  "Still the may falls.",
+  ""
+]

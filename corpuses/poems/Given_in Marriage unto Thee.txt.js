@@ -1,0 +1,12 @@
+module.exports = [
+  "Given in Marriage unto Thee",
+  "Oh thou Celestial Host --",
+  "Bride of the Father and the Son",
+  "Bride of the Holy Ghost.",
+  "",
+  "Other Betrothal shall dissolve --",
+  "Wedlock of Will, decay --",
+  "Only the Keeper of this Ring",
+  "Conquer Mortality --",
+  ""
+]

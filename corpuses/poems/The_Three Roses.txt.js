@@ -1,0 +1,23 @@
+module.exports = [
+  "When the buds began to burst,",
+  "Long ago, with Rose the First",
+  "I was walking; joyous then",
+  "Far above all other men,",
+  "Till before us up there stood",
+  "Britonferry's oaken wood,",
+  "Whispering, \"Happy as thou art,",
+  "Happiness and thou must part.\"",
+  "Many summers have gone by",
+  "Since a Second Rose and I",
+  "(Rose from the same stem) have told",
+  "This and other tales of old.",
+  "She upon her wedding day",
+  "Carried home my tenderest lay:",
+  "From her lap I now have heard",
+  "Gleeful, chirping, Rose the Third.",
+  "Not for her this hand of mine",
+  "Rhyme with nuptial wreath shall twine;",
+  "Cold and torpid it must lie,",
+  "Mute the tongue, and closed the eye.",
+  ""
+]

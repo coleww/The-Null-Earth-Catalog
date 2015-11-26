@@ -1,0 +1,7 @@
+module.exports = [
+  "Thou water turn'st to wine, fair friend of life,",
+  "Thy foe, to cross the sweet arts of thy reign,",
+  "Distills from thence the tears of wrath and strife,",
+  "And so turns wine to water back again.",
+  ""
+]

@@ -1,0 +1,22 @@
+module.exports = [
+  "She has one good bumblebee",
+  "which she leads about town",
+  "on a leash of clover.",
+  "It's as big as a Saint Bernard",
+  "but also extremely fragile.",
+  "People want to pet its long, shaggy coat.",
+  "These would be mostly whirling dervishes",
+  "out shopping for accessories.",
+  "When Lily winks they understand everything,",
+  "right down to the particle",
+  "of a butterfly's wing lodged",
+  "in her last good eye,",
+  "so the situation is avoided,",
+  "the potential for a cataclysm",
+  "is narrowly averted,",
+  "and the bumblebee lugs",
+  "its little bundle of shaved nerves",
+  "forward, on a mission",
+  "from some sick, young godhead.",
+  ""
+]

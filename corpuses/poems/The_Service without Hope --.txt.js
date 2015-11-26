@@ -1,0 +1,12 @@
+module.exports = [
+  "The Service without Hope --",
+  "Is tenderest, I think --",
+  "Because 'tis unsustained",
+  "By stint -- Rewarded Work --",
+  "",
+  "Has impetus of Gain --",
+  "And impetus of Goal --",
+  "There is no Diligence like that",
+  "That knows not an Until --",
+  ""
+]
