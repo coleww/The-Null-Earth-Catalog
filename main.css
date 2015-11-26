@@ -42,7 +42,7 @@ body {
 }
 
 .toc {
-
+  font-size: 50px;
 }
 
 .toc--headline {
@@ -50,7 +50,7 @@ body {
 }
 
 .toc--list {
-
+  width: 66%;
 }
 
 .toc--header {
@@ -61,22 +61,44 @@ body {
 
 }
 
+
+.use {
+  font-size: 30px;
+}
 .use--headline {
 
 }
 
 .use--list {
-
+  width: 33%;
 }
-
 
 .use--header {
 
 }
 
+.use--mission {
+  width: 25%;
+  border: 3px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.use--img {
+  width: 500px;
+}
+
 
 .use--mission {
 
+}
+
+.section--img {
+  width: 250px;
+  height: 250px;
+  border: 1px dashed black;
+
+ /*float: left;*/
 }
 
 ####################################################################
