@@ -1,6 +1,4 @@
-####################################################################
-###################### main classes ################################
-####################################################################
+
 body {
   font-family: "Lucida Console", Monaco, monospace;
 }
@@ -10,12 +8,11 @@ body {
 }
 
 .section {
-
+page-break-after: always;
 }
 
-# how to make this take up the full page? or add border? hmm
 .page {
-  page-break-after:always;
+  page-break-after: always;
 }
 
 .cover {
@@ -25,11 +22,11 @@ body {
 }
 
 .cover--title {
-  font-size: 75px;
+  font-size: 50px;
 }
 
 .cover--subtitle {
-  font-size: 50px;
+  font-size: 30px;
   font-style: italic;
 }
 
@@ -38,11 +35,11 @@ body {
 }
 
 .cover--img {
-  width: 100%;
+  width: 500px;
 }
 
 .toc {
-  font-size: 50px;
+  font-size: 25px;
 }
 
 .toc--headline {
@@ -50,7 +47,7 @@ body {
 }
 
 .toc--list {
-  width: 66%;
+  width: 500px;
 }
 
 .toc--header {
@@ -70,7 +67,7 @@ body {
 }
 
 .use--list {
-  width: 33%;
+  width: 400px;
 }
 
 .use--header {
@@ -78,19 +75,19 @@ body {
 }
 
 .use--mission {
-  width: 25%;
+  width: 600px;
   border: 3px solid gray;
   padding: 5px;
   border-radius: 5px;
 }
 
 .use--img {
-  width: 500px;
+  width: 300px;
 }
 
 
 .use--mission {
-
+  font-size: 30px;
 }
 
 .section--img {
@@ -98,12 +95,8 @@ body {
   height: 250px;
   border: 1px dashed black;
 
- /*float: left;*/
 }
 
-####################################################################
-###################### item related classes ########################
-####################################################################
 
 .item--thing {
   /*width: 24%;*/
@@ -117,10 +110,6 @@ body {
   width: 50%;
 }
 
-
-####################################################################
-########################### utility classes ########################
-####################################################################
 
 .hidden {
   display: none;

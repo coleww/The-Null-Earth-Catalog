@@ -40,8 +40,6 @@ module.exports = function (name, num, topics) {
   section.appendChild(cover)
 
   for (var i = 0; i < 7; i++) {
-    var page = document.createElement('center') // nice semantics here
-    page.className = 'page'
 
 
     for (var j = 0; j < 20; j++) {
@@ -93,18 +91,9 @@ module.exports = function (name, num, topics) {
         item.appendChild(author)
         item.appendChild(opEd)
       }
-      page.appendChild(item)
+      section.appendChild(item)
     }
-    section.appendChild(page)
-    section.appendChild(document.createElement('br'))
-    section.appendChild(document.createElement('br'))
-    section.appendChild(document.createElement('br'))
-    section.appendChild(document.createElement('br'))
-    section.appendChild(document.createElement('br'))
-    section.appendChild(document.createElement('br'))
-    section.appendChild(document.createElement('br'))
-    section.appendChild(document.createElement('br'))
-    section.appendChild(document.createElement('br'))
+
   }
   return section
 }

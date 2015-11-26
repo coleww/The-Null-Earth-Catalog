@@ -3,6 +3,30 @@ THE NULL EARTH CATALOG
 
 MUST TURN ALL THE FS INTO REQUIRES, GOSH, FUCK. WOW.
 
+TODO:
+
+add sub-thing page num/seciton name to all pages
+and um make a buncha actors i guess
+RUN EVERYTHING THRU TIPOTS/ALX/GN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
