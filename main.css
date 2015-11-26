@@ -10,12 +10,12 @@ body {
 }
 
 .section {
-  page-break-after:always;
+
 }
 
 # how to make this take up the full page? or add border? hmm
 .page {
-
+  page-break-after:always;
 }
 
 .cover {
@@ -25,19 +25,57 @@ body {
 }
 
 .cover--title {
-  font-size: 50px;
+  font-size: 75px;
 }
 
 .cover--subtitle {
-  font-size: 25px;
+  font-size: 50px;
   font-style: italic;
 }
 
 .cover--edition {
-
+  font-size: 25px;
 }
 
 .cover--img {
+  width: 100%;
+}
+
+.toc {
+
+}
+
+.toc--headline {
+
+}
+
+.toc--list {
+
+}
+
+.toc--header {
+
+}
+
+.toc--subheader {
+
+}
+
+.use--headline {
+
+}
+
+.use--list {
+
+}
+
+
+.use--header {
+
+}
+
+
+.use--mission {
 
 }
 

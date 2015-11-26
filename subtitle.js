@@ -2,5 +2,5 @@ var q = require('queneau-buckets')()
 q.seed(require('./corpuses/subtitles'))
 
 module.exports = function () {
-  return q.fill(~~(Math.random() * 3) + 1).toUpperCase()
+  return q.fill(~~(Math.random() * 3) + 2).toUpperCase()
 }

@@ -440,7 +440,7 @@ module.exports = ["The chief defect of all hitherto existing materialism – tha
 "(clinai pente anti .",
 "oson ai pente clinai)",
 "He further sees that the value relation which gives rise to this expression makes it necessary that the house should qualitatively be made the equal of the bed, and that, without such an equalisation, these two clearly different things could not be compared with each other as commensurable quantities.",
-"“Exchange,” he says, “cannot take place without equality, and equality not without commensurability".",
+"“Exchange,” he says, “cannot take place without equality, and equality not without commensurability",
 "(out isothς mh oushς snmmetriaς).",
 "Here, however, he comes to a stop, and gives up the further analysis of the form of value.",
 "“It is, however, in reality, impossible (th men oun alhqeia adunaton), that such unlike things can be commensurable” – i.",
