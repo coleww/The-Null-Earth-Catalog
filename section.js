@@ -100,7 +100,7 @@ module.exports = function (name, num, topics) {
             dee.style.fontStyle = pick(['bold', 'italic', 'regular'])
             opEd.appendChild(dee)
           })
-        }).join('. ')
+        })
         item.style.border = ~~(Math.random() * 4) +  1 + 'px ' + pick(['dashed', 'solid']) + ' ' + pick(['black', 'gray'])
         item.style.width = 25 + ~~(Math.random() * 10) + '%'
         item.style.height = 12 + ~~(Math.random() * 12) + '%'

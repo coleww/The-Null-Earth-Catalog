@@ -11,3 +11,4 @@ var sections = topics.forEach(function (topic, i) {
 })
 // make index? glossary? closing page?
 document.body.appendChild(catalog)
+console.log('we made it, ok')
