@@ -11,6 +11,7 @@
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
   "license": "MIT",
   "devDependencies": {
+    "after": "^0.8.1",
     "browserify": "^12.0.1",
     "tape": "^4.2.2",
     "watchify": "^3.6.1",
@@ -25,14 +26,10 @@
     "eat-wrapper": "^1.0.1",
     "emoji-text": "^0.2.5",
     "fetch-image": "^1.0.4",
-    "gender-neutral": "^0.1.1",
     "gutencorpus": "^0.1.2",
     "is-snowball": "^1.0.1",
     "lipogram": "^1.0.0",
-    "morae": "^1.0.1",
     "n-plus-7": "^1.1.0",
-    "natural": "^0.2.1",
-    "natural-gutenberg": "^1.0.1",
     "new-slang": "^1.0.1",
     "news-text": "^2.2.0",
     "pick-random": "^1.0.1",
@@ -42,44 +39,12 @@
     "pronouncing": "github:aparrish/pronouncingjs",
     "queneau-buckets": "^1.0.1",
     "queneau-letters": "^1.0.2",
-    "rapgeniusapi": "^1.0.0",
     "request": "^2.65.0",
-    "retext": "^1.0.0",
-    "rita": "^1.1.19",
     "shuffle-array": "^0.1.0",
-    "spewer": "^0.1.2",
     "this-is-probably-ok-to-say": "^1.0.3",
     "to-unicode": "^1.0.2",
     "word-vomit": "^1.0.1",
     "wordnik": "0.0.2"
-  },
-  "dependencies": {
-    "capitalize": "^1.0.0",
-    "cockney-rhyming-slang": "^1.0.0",
-    "corpora-project": "^0.1.2",
-    "diacriticize": "^1.0.0",
-    "eat-wrapper": "^1.0.1",
-    "fetch-image": "^1.0.4",
-    "gender-neutral": "^0.1.1",
-    "gutencorpus": "^0.1.2",
-    "is-snowball": "^1.0.1",
-    "lipogram": "^1.0.0",
-    "n-plus-7": "^1.1.0",
-    "natural": "^0.2.1",
-    "new-slang": "^1.0.1",
-    "pick-random": "^1.0.1",
-    "poetic-vomit": "^1.0.1",
-    "pos": "^0.3.0",
-    "pronouncing": "^0.0.1",
-    "queneau-buckets": "^1.0.1",
-    "queneau-letters": "^1.0.2",
-    "rita": "^1.1.19",
-    "shuffle-array": "^0.1.0",
-    "spewer": "^0.1.2",
-    "this-is-probably-ok-to-say": "^1.0.3",
-    "to-unicode": "^1.0.2",
-    "word-vomit": "^1.0.1",
-    "wordnik": "^0.0.2"
   },
   "repository": {
     "type": "git",
@@ -88,5 +53,9 @@
   "bugs": {
     "url": "https://github.com/coleww/The-Null-Earth-Catalog/issues"
   },
-  "homepage": "https://github.com/coleww/The-Null-Earth-Catalog#readme"
+  "homepage": "https://github.com/coleww/The-Null-Earth-Catalog#readme",
+  "dependencies": {
+    "WNdb": "^3.1.1",
+    "lapack": "^0.1.0"
+  }
 }

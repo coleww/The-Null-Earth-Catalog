@@ -18,6 +18,7 @@ module.exports = function (num, cb) {
                 .reduce(function(a, b) {return a.concat(b)})
                 .filter(function (x){ return x})
                 .map(function (l) {return l.replace(/\W/g, '')})
+                .filter(function (x){ return proc(x)})
 
   var init = after(lines.length, function () {
     cb(m.fill(num).join(' '))

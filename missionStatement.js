@@ -1,10 +1,10 @@
 var q = require('queneau-buckets')()
 
 
-var texts = require('./corpuses/TOC')
-.concat(require('./corpuses/subtitles'))
-.concat(require('./corpuses/marx'))
-.concat(require('./corpuses/ts1989'))
+var texts = require('./corpuses/rando/TOC')
+.concat(require('./corpuses/rando/subtitles'))
+.concat(require('./corpuses/rando/marx'))
+.concat(require('./corpuses/rando/ts1989'))
 q.seed(texts)
 
 module.exports = function () {

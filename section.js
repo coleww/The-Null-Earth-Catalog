@@ -12,7 +12,7 @@ var snowballer = require('./snowballer')
 
 var imageMap = require('./imageMap')
 
-var actors = [absence, baes, snake_oil, snowballer]
+var actors = [absence]//, baes, snake_oil, snowballer]
 module.exports = function (name, num, topics) {
   var section = document.createElement('section') // nice semantics here
   section.className = 'section'
@@ -55,12 +55,16 @@ module.exports = function (name, num, topics) {
       item.appendChild(itemImg)
 
       var text = document.createElement('h' + (~~(Math.random() * 5) + 2))
-      text.textContent = actor((~~(Math.random() * 7) + 3))
+      actor((~~(Math.random() * 7) + 3), function (str) {
+        text.textContent = str
+      })
       item.appendChild(itemImg)
       item.appendChild(text)
       if (Math.random() < 0.75) {
         var summary = document.createElement('center')
-        summary.textContent = actor((~~(Math.random() * 12) + 7))
+        actor((~~(Math.random() * 12) + 7), function (str) {
+          summary.textContent = str
+        })
 
         item.style.border = ~~(Math.random() * 4) +  1 + 'px ' + pick(['dashed', 'solid']) + ' ' + pick(['black', 'gray'])
         item.style.width = 15 + ~~(Math.random() * 9) + '%'
@@ -71,8 +75,10 @@ module.exports = function (name, num, topics) {
         list.className = 'item--list'
         topics.forEach(function (topic) {
           var el = document.createElement('li')
-          el.textContent = actor((~~(Math.random() * 12) + 7))
-          list.appendChild(el)
+          actor(~~(Math.random() * 12) + 7, function (str) {
+            el.textContent = str
+            list.appendChild(el)
+          })
         })
         item.style.border = ~~(Math.random() * 4) +  1 + 'px ' + pick(['dashed', 'solid']) + ' ' + pick(['black', 'gray'])
         item.style.width = 15 + ~~(Math.random() * 9) + '%'
@@ -80,10 +86,20 @@ module.exports = function (name, num, topics) {
         item.appendChild(list)
       } else {
         var author = document.createElement('h5')
-        author.textContent = 'by ' + actor(3).split(' ').map(function (w) {return cap(w)})
+        actor(3, function (str) {
+          author.textContent = 'by ' + str.split(' ').map(function (w) {return cap(w)})
+        })
         var opEd = document.createElement('div')
-        opEd.textContent = [1,2,3,4,5,6,7,8,9,10,11,12].map(function (i) {
-          return actor(i + ~~(Math.random() * 25))
+
+        // async this somehow?
+        ;[1,2,3,4,5,6,7,8,9,10,11,12].forEach(function (i) {
+          actor(i + ~~(Math.random() * 25), function (str) {
+            var dee = document.createElement('span')
+            dee.textContent = str
+            dee.style.fontWeight = 10 + ~~(Math.random() * 15) + 'px'
+            dee.style.fontStyle = pick(['bold', 'italic', 'regular'])
+            opEd.appendChild(dee)
+          })
         }).join('. ')
         item.style.border = ~~(Math.random() * 4) +  1 + 'px ' + pick(['dashed', 'solid']) + ' ' + pick(['black', 'gray'])
         item.style.width = 25 + ~~(Math.random() * 10) + '%'
