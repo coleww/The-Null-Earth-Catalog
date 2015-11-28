@@ -1,6 +1,25 @@
-var queneauBuckets = require('queneau-buckets')
-var newSlang = require('new-slang')
-var tipots = require('this-is-probably-ok-to-say')
-module.exports = function () {
-  return "howdy"
+var lipogram = require('lipogram')
+var after = require('after')
+var proc = require('./textProcessor')
+var pick = require('pick-random')
+var cp = require('./corpusMap')
+
+module.exports = function (num, cb) {
+
+  var pos = cp[0] // poetry
+  var sos = cp[3] // poetry
+  var pes = pick(pos, {count: 3})//.reduce(function(a, b) {return a.concat(b)})
+  var ses = pick(sos, {count: 3})//.reduce(function(a, b) {return a.concat(b)})
+// GOTTA BATCH RENAME ALL THE FILES TO JUST WHATEVER WHO CARES?
+
+  var lines = ses.concat(pes)
+                .reduce(function(a, b) {return a.concat(b)})
+                .map(function (l) {return l.replace(/\'|\"|\:|\;|\<|\>|\.|\?|\!|\,|\@|\#|\$|\%|\^|\&|\*|\(|\)/g, '')})
+                .filter(function (x){ return !!proc(x)})
+                .filter(function (x){ return !!x})
+
+
+
+
+
 }

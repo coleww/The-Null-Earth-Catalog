@@ -1,17 +1,15 @@
 var lipogram = require('lipogram')
-var markov = require('@coleww/markov')
-var after = require('after')
 var proc = require('./textProcessor')
 var pick = require('pick-random')
 var cp = require('./corpusMap')
-var m = markov(1)
+var shuffle = require('shuffle-array')
 
 module.exports = function (num, cb) {
-
+  console.log('doing a lipo')
   var pos = cp[0] // poetry
   var sos = cp[3] // poetry
-  var pes = pick(pos, {count: 10})//.reduce(function(a, b) {return a.concat(b)})
-  var ses = pick(sos, {count: 10})//.reduce(function(a, b) {return a.concat(b)})
+  var pes = pick(pos, {count: 12})//.reduce(function(a, b) {return a.concat(b)})
+  var ses = pick(sos, {count: 12})//.reduce(function(a, b) {return a.concat(b)})
 // GOTTA BATCH RENAME ALL THE FILES TO JUST WHATEVER WHO CARES?
 
   var lines = ses.concat(pes)
@@ -19,13 +17,12 @@ module.exports = function (num, cb) {
                 .map(function (l) {return l.replace(/\'|\"|\:|\;|\<|\>|\.|\?|\!|\,|\@|\#|\$|\%|\^|\&|\*|\(|\)/g, '')})
                 .filter(function (x){ return !!proc(x)})
                 .filter(function (x){ return !!x})
-                console.log(lines.length, lines[500])
-  var init = after(lines.length, function () {
-    console.log('calling', m.pick())
-    cb(m.fill(m.pick(), num).join(' '))
+
+  var macaos = lines.filter(function (l) {
+    return lipogram(l, ['u', 'i'])
   })
-  lines.forEach(function (line, i) {
-    // console.log(i)
-    m.seed(line, init)
-  })
+
+  var words = shuffle(macaos).join(' ').split(' ')
+
+  return words.slice(0, num).join(' ')
 }

@@ -6,7 +6,7 @@ var uses = require('./uses')()
 catalog.appendChild(require('./coverPage')())
 catalog.appendChild(require('./tocPage')(topics))
 catalog.appendChild(require('./usePage')(uses))
-var sections = topics.forEach(function (topic, i) {
+var sections = [topics[0]].forEach(function (topic, i) {
   catalog.appendChild(section(topic, i + 1, topics))
 })
 // make index? glossary? closing page?
