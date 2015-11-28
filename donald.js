@@ -1,25 +1,23 @@
-var lipogram = require('lipogram')
-var after = require('after')
+var ns = require('new-slang')
 var proc = require('./textProcessor')
 var pick = require('pick-random')
 var cp = require('./corpusMap')
-
-module.exports = function (num, cb) {
-
-  var pos = cp[0] // poetry
-  var sos = cp[3] // poetry
-  var pes = pick(pos, {count: 3})//.reduce(function(a, b) {return a.concat(b)})
-  var ses = pick(sos, {count: 3})//.reduce(function(a, b) {return a.concat(b)})
+console.log('quack quack this is doanld on the lien')
+  var pos = cp[4] // poetry
+  var pes = pick(pos, {count: 2})//.reduce(function(a, b) {return a.concat(b)})
 // GOTTA BATCH RENAME ALL THE FILES TO JUST WHATEVER WHO CARES?
 
-  var lines = ses.concat(pes)
+  var lines = pes
                 .reduce(function(a, b) {return a.concat(b)})
                 .map(function (l) {return l.replace(/\'|\"|\:|\;|\<|\>|\.|\?|\!|\,|\@|\#|\$|\%|\^|\&|\*|\(|\)/g, '')})
+                .map(function (l) {return ns(l, 1)})
                 .filter(function (x){ return !!proc(x)})
                 .filter(function (x){ return !!x})
 
+module.exports = function (num, cb) {
 
 
+return pick(lines, {count: 5}).join(' ').split(' ').slice(0, num).join(' ')
 
 
 }

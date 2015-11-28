@@ -17,7 +17,7 @@ var cp = require('./corpusMap')
 module.exports = function (num, cb) {
 
 
-  return pick(lines, {count: 5}).join(' ')
+  return pick(lines, {count: 5}).join(' ').split(' ').slice(0, num).join(' ')
 
 
 }

@@ -2,6 +2,7 @@ var eatWrapper = require('eat-wrapper')()
 var proc = require('./textProcessor')
 var pick = require('pick-random')
 var cp = require('./corpusMap')
+console.log('sup')
   var tweets = cp[4] // tweets
   var lines = pick(tweets)[0].map(function (l) {return l.replace(/\'|\"|\:|\;|\<|\>|\.|\?|\!|\,|\@|\#|\$|\%|\^|\&|\*|\(|\)/g, '')})
                 .filter(function (x){ return !!proc(x)})

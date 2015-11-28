@@ -10,16 +10,20 @@ var baes = require('./baes')
 var brewer = require('./brewer')
 var britney = require('./britney')
 var cleo = require('./cleo')
+var donald = require('./donald')
+var frederick = require('./frederick')
+var mary = require('./mary')
+var yoga = require('./yoga')
 var snake_oil = require('./snake_oil')
 var snowballer = require('./snowballer')
 
 var imageMap = require('./imageMap')
 
-var actors = [absence, baes, brewer, britney, cleo]//, snake_oil, snowballer]
+var actors = [absence, baes, brewer, britney, cleo, donald, frederick, mary, snake_oil, snowballer, yoga]
 module.exports = function (name, num, topics) {
   var section = document.createElement('section') // nice semantics here
   section.className = 'section'
-
+  console.log('doing a sec')
 
   var cover = document.createElement('center') // nice semantics here
   cover.className = 'page'
@@ -43,13 +47,14 @@ module.exports = function (name, num, topics) {
   section.appendChild(cover)
 
   for (var i = 0; i < 1; i++) {
-
+    console.log('making a page')
     var numy = 10 + ~~(Math.random() * 10)
+    console.log('making', numy, 'entries')
     for (var j = 0; j < numy; j++) {
       var item = document.createElement('div')
       item.className = 'item--thing'
       item.style.display = 'inline-block'
-
+      console.log('making item', j)
 
       var actor = pick(actors)
       var itemImg = document.createElement('img')
@@ -111,5 +116,6 @@ module.exports = function (name, num, topics) {
     }
 
   }
+  console.log('down with dis sec')
   return section
 }

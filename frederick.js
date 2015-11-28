@@ -1,11 +1,8 @@
-var lipogram = require('lipogram')
-var after = require('after')
+var nplus = require('n-plus-7')
 var proc = require('./textProcessor')
 var pick = require('pick-random')
 var cp = require('./corpusMap')
-
-module.exports = function (num, cb) {
-
+console.log('top of the morning yo freddy')
   var pos = cp[0] // poetry
   var sos = cp[3] // poetry
   var pes = pick(pos, {count: 3})//.reduce(function(a, b) {return a.concat(b)})
@@ -15,11 +12,15 @@ module.exports = function (num, cb) {
   var lines = ses.concat(pes)
                 .reduce(function(a, b) {return a.concat(b)})
                 .map(function (l) {return l.replace(/\'|\"|\:|\;|\<|\>|\.|\?|\!|\,|\@|\#|\$|\%|\^|\&|\*|\(|\)/g, '')})
+                .map(function (l) {return nplus(l)})
                 .filter(function (x){ return !!proc(x)})
                 .filter(function (x){ return !!x})
 
+module.exports = function (num, cb) {
 
 
 
+
+return pick(lines, {count: 5}).join(' ').split(' ').slice(0, num).join(' ')
 
 }

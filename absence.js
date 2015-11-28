@@ -3,9 +3,7 @@ var proc = require('./textProcessor')
 var pick = require('pick-random')
 var cp = require('./corpusMap')
 var shuffle = require('shuffle-array')
-
-module.exports = function (num, cb) {
-  console.log('doing a lipo')
+console.log('an absence is a thing to, yeah')
   var pos = cp[0] // poetry
   var sos = cp[3] // poetry
   var pes = pick(pos, {count: 12})//.reduce(function(a, b) {return a.concat(b)})
@@ -21,6 +19,8 @@ module.exports = function (num, cb) {
   var macaos = lines.filter(function (l) {
     return lipogram(l, ['u', 'i'])
   })
+module.exports = function (num, cb) {
+
 
   var words = shuffle(macaos).join(' ').split(' ')
 

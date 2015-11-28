@@ -1,8 +1,8 @@
 var ql = require('queneau-letters')()
-var after = require('after')
 var proc = require('./textProcessor')
 var pick = require('pick-random')
 var cp = require('./corpusMap')
+console.log('its britney')
   var pos = cp[2] // snow
   var pes = pick(pos)[0]//.reduce(function(a, b) {return a.concat(b)})
 // GOTTA BATCH RENAME ALL THE FILES TO JUST WHATEVER WHO CARES?
