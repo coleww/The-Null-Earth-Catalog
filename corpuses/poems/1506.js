@@ -1,7 +1,0 @@
-module.exports = [
-  "Peace is a fiction of our Faith --",
-  "The Bells a Winter Night",
-  "Bearing the Neighbor out of Sound",
-  "That never did alight.",
-  ""
-]

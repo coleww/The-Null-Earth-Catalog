@@ -1,9 +1,0 @@
-module.exports = [
-  "GIVE me women, wine, and snuff",
-  "Untill I cry out \"hold, enough!\"",
-  "You may do so sans objection",
-  "Till the day of resurrection:",
-  "For, bless my beard, they aye shall be",
-  "My beloved Trinity.",
-  ""
-]

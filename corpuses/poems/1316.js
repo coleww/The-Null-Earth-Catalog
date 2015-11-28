@@ -1,9 +1,0 @@
-module.exports = [
-  "No Romance sold unto",
-  "Could so enthrall a Man",
-  "As the perusal of",
-  "His Individual One --",
-  "'Tis Fiction's -- When 'tis small enough",
-  "To Credit -- 'Tisn't true!",
-  ""
-]

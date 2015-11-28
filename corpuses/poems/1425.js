@@ -1,7 +1,0 @@
-module.exports = [
-  "HIS father's sense, his mother's grace,",
-  "  In him, I hope, will always fit so;",
-  "With--still to keep him in good case--",
-  "  The health and appetite of Rizzo.",
-  ""
-]

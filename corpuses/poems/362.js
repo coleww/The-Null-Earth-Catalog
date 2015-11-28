@@ -1,7 +1,0 @@
-module.exports = [
-  "AWAY with funeral music - set",
-  "The pipe to powerful lips -",
-  "The cup of life's for him that drinks",
-  "And not for him that sips.",
-  ""
-]

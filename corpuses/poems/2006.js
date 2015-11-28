@@ -1,7 +1,0 @@
-module.exports = [
-  "Summer looked for long am I:",
-  "Much shall change or e'er I die.",
-  "Prithee take it not amiss",
-  "Though I weary thee with bliss.",
-  ""
-]

@@ -1,8 +1,0 @@
-module.exports = [
-  "Such hope, as is the sick despair of good,",
-  "Such fear, as is the certainty of ill,",
-  "Such doubt, as is pale Expectation's food",
-  "Turned while she tastes to poison, when the will",
-  "Is powerless, and the spirit...",
-  ""
-]

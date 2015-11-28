@@ -1,9 +1,0 @@
-module.exports = [
-  "Struggling, and faint, and fainter didst thou wane,",
-  "O Moon! and round thee all thy starry train",
-  "Came forth to help thee, with half-open eyes,",
-  "And trembled every one with still surprise,",
-  "That the black Spectre should have dared assail",
-  "Their beauteous queen and seize her sacred veil",
-  ""
-]

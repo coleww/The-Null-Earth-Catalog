@@ -1,7 +1,0 @@
-module.exports = [
-  "You too, my mother, read my rhymes",
-  "For love of unforgotten times,",
-  "And you may chance to hear once more",
-  "The little feet along the floor.",
-  ""
-]
