@@ -4,13 +4,13 @@ var pick = require('pick-random')
 var cp = require('./corpusMap')
 var pos = cp[2] // poetry
 console.log('mary hear and in the clear')
-  var pes = pick(pos, {count: 3})//.reduce(function(a, b) {return a.concat(b)})
+  var pes = pick(pos, {count: 2})//.reduce(function(a, b) {return a.concat(b)})
 // GOTTA BATCH RENAME ALL THE FILES TO JUST WHATEVER WHO CARES?
 
   var lines = pes
                 .reduce(function(a, b) {return a.concat(b)})
                 .map(function (l) {return l.replace(/\'|\"|\:|\;|\<|\>|\.|\?|\!|\,|\@|\#|\$|\%|\^|\&|\*|\(|\)/g, '')})
-                .map(function (l) {return  pv(l)})
+                .map(function (l) {return  pv(l, Math.random())})
                 .filter(function (x){ return !!proc(x)})
                 .filter(function (x){ return !!x})
 
