@@ -5,23 +5,48 @@ var pick = function (arr) {
 var imageMap = require('./imageMap')
 var cap = require('capitalize')
 
+
+        var fonts = ['Georgia, serif',
+      '"Palatino Linotype", "Book Antiqua", Palatino, serif',
+      '"Times New Roman", Times, serif',
+      'Arial, Helvetica, sans-serif',
+      '"Arial Black", Gadget, sans-serif',
+      '"Comic Sans MS", cursive, sans-serif',
+      'Impact, Charcoal, sans-serif',
+      '"Lucida Sans Unicode", "Lucida Grande", sans-serif',
+      'Tahoma, Geneva, sans-serif',
+      '"Trebuchet MS", Helvetica, sans-serif',
+      'Verdana, Geneva, sans-serif',
+      '"Courier New", Courier, monospace',
+      '"Lucida Console", Monaco, monospace']
 var absence = require('./absence')
 var baes = require('./baes')
 var brewer = require('./brewer')
 var britney = require('./britney')
 var cleo = require('./cleo')
+
+
+var bailey = require('./bailey')
+var cyrus = require('./cyrus')
+var meredith = require('./meredith')
+var olivia = require('./olivia')
+
 var donald = require('./donald')
 var frederick = require('./frederick')
-var mary = require('./mary')
 var yoga = require('./yoga')
 var snake_oil = require('./snake_oil')
 var snowballer = require('./snowballer')
 
+var mary = require('./mary')
+console.log('wtf')
 var imageMap = require('./imageMap')
 
 var actors = [absence, baes, brewer, britney, cleo, donald, frederick, mary, snake_oil, snowballer, yoga]
 module.exports = function (name, num, topics) {
-  var section = document.createElement('section') // nice semantics here
+  var section = document.createElement('div') // nice semantics here
+    section.style.padding = ~~(Math.random() * 25) + 'px'
+  section.style.margin = ~~(Math.random() * 25) + 'px'
+
   section.className = 'section'
   console.log('doing a sec')
 
@@ -46,9 +71,11 @@ module.exports = function (name, num, topics) {
 
   section.appendChild(cover)
 
-  for (var i = 0; i < 1; i++) {
+  for (var i = 0; i < 7; i++) {
     console.log('making a page')
-    var numy = 10 + ~~(Math.random() * 10)
+    var aPage = document.createElement('div')
+    aPage.className = 'page'
+    var numy = 5// + ~~(Math.random() * 10)
     console.log('making', numy, 'entries')
     for (var j = 0; j < numy; j++) {
       var item = document.createElement('div')
@@ -59,12 +86,22 @@ module.exports = function (name, num, topics) {
       var actor = pick(actors)
       var itemImg = document.createElement('img')
       itemImg.className = 'item--img'
-      itemImg.style.width = 50 + ~~(Math.random() * 40) + '%'
-      itemImg.style.marginLeft = ~~(Math.random() * 10) + 'px'
-      itemImg.style.marginTop = ~~(Math.random() * 10) + 'px'
+      itemImg.style.width = 30 + ~~(Math.random() * 40) + '%'
+      itemImg.style.marginLeft = ~~(Math.random() * 5) + 'px'
+      itemImg.style.marginTop = ~~(Math.random() * 5) + 'px'
       itemImg.src = pick(pick(imageMap))
-      item.appendChild(itemImg)
 
+      if (Math.random() < 0.2) {
+        var o = ~~(Math.random() * 360) + 'deg'
+        itemImg.style.imageOrientation = o
+      } else if (Math.random() < 0.2) {
+        itemImg.style.imageOrientation = 'flip'
+      } else if (Math.random() < 0.2) {
+        var o = ~~(Math.random() * 360) + 'deg'
+        itemImg.style.imageOrientation = o + ' flip'
+      }
+
+      item.appendChild(itemImg)
       var text = document.createElement('h' + (~~(Math.random() * 5) + 2))
       text.textContent = actor((~~(Math.random() * 7) + 3))
       item.appendChild(itemImg)
@@ -80,7 +117,8 @@ module.exports = function (name, num, topics) {
         item.style.height = 9 + ~~(Math.random() * 5) + '%'
         item.appendChild(summary)
       } else if (Math.random() < 0.5) {
-        var list = document.createElement('ol')
+        var list = document.createElement(Math.random() < 0.5 ? 'ol' : 'ul')
+        if (Math.random() < 0.3) list.style.listStyle = 'none'
         list.className = 'item--list'
         topics.forEach(function (topic) {
           var el = document.createElement('li')
@@ -112,10 +150,37 @@ module.exports = function (name, num, topics) {
         item.appendChild(author)
         item.appendChild(opEd)
       }
-      section.appendChild(item)
-    }
 
+        item.style.marginLeft = ~~(Math.random() * 15) + 'px'
+        item.style.marginTop = ~~(Math.random() * 15) + 'px'
+        if (Math.random() < 0.2) {
+          item.style.float = 'left'
+        } else if (Math.random() < 0.2) {
+          item.style.float = 'right'
+        }
+        if (Math.random() < 0.2) {
+          item.style.borderRadius = ~~(Math.random() * 50) + 'px'
+        }
+        if (Math.random() < 0.75) {
+          item.style.textAlign = pick(['left', 'center', 'right', 'justify'])
+        }
+
+
+        item.style.fontFamily = pick(fonts)
+
+        if (Math.random() < 0.15) {
+          item.style.textDecoration = pick(['underline', 'line-through'])
+        }
+
+
+      aPage.appendChild(item)
+    }
+    section.appendChild(aPage)
   }
   console.log('down with dis sec')
+
+
+
+
   return section
 }

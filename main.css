@@ -104,12 +104,12 @@ page-break-after: always;
   /*border: 1px solid black;*/
   /*float: left !important;*/
   display: inline-block;
-  margin: 5px;
-  padding: 12px;
+  /*margin: 5px;*/
+  /*padding: 12px;*/
 }
 
 .item--img {
-  width: 50%;
+  /*width: 50%;*/
 }
 
 

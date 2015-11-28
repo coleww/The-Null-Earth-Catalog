@@ -16,6 +16,10 @@ module.exports = function (uses) {
   headline.textContent = 'HOW 2 USE THIS TEXT'
   cento.appendChild(headline)
 
+  var headline = document.createElement('h5')
+  headline.textContent = 'AN ITEM IS DEEMED WORTHY OF PRESENCE IN THE NULL EARTH CATALOG IF IT FULFILLS ANY COMBINATION OF THE FOLLOWING DUTIES:'
+  cento.appendChild(headline)
+
 
   var list = document.createElement('ol')
   list.className = 'use--list'
@@ -29,11 +33,19 @@ module.exports = function (uses) {
 
   cento.appendChild(list)
 
+    var headline = document.createElement('h3')
+  headline.textContent = 'THE ROBOTS MAY DESTROY THE NULL EARTH AT ANY MOMENT. CHERISH YR EXISTENCE, FRAGILE MEAT CREATURE!'
+  cento.appendChild(headline)
+
   var subImage = document.createElement('img')
   subImage.className = 'use--img'
   subImage.src = pick(pick(imageMap)[0])[0]
   cento.appendChild(subImage)
 
+
+    var headline = document.createElement('h2')
+  headline.textContent = 'OUR MISSION:'
+  cento.appendChild(headline)
   var theMission = document.createElement('div')
   theMission.className = 'use--mission'
   theMission.textContent = missionStatement
