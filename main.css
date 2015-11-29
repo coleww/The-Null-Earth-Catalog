@@ -15,7 +15,7 @@ body {
 .cover {
   background-color: black;
   color: white;
-
+  width: 80%;
 }
 
 .cover--title {

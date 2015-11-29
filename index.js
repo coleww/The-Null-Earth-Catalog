@@ -4,7 +4,12 @@ catalog.className = 'catalog'
 var section = require('./section')
 var topics = require('./toc')()
 var uses = require('./uses')()
-catalog.appendChild(require('./coverPage')())
+var cov = require('./coverPage')()
+cov.style.width = '100%'
+cov.style.height = '100%'
+cov.style.color = 'gray'
+cov.style.backgroundColor = 'black'
+catalog.appendChild(cov)
 var tops = require('./tocPage')(topics)
 
 tops.appendChild(require('./usePage')(uses))
