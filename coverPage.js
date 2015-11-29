@@ -4,6 +4,8 @@ var pick = require('pick-random')
 module.exports = function () {
     var coverPage = document.createElement('section')
     coverPage.className = 'cover page'
+    coverPage.style.width = '100%'
+    coverPage.style.height = '100%'
     var title = document.createElement('div')
     title.className = 'cover--title'
     title.textContent = 'THE NULL EARTH CATALOG'
@@ -44,6 +46,8 @@ module.exports = function () {
     var theEarth = document.createElement('img')
     theEarth.className = 'cover--img'
     theEarth.src = imgPath
+    theEarth.style.width = '100%'
+    theEarth.style.height = '70%'
     coverPage.appendChild(theEarth)
 
     var season = pick(['SUMMER', 'FALL', 'WINTER', 'SPRING', 'PRE-WINTER', 'POST-SUMMER', 'EARLY-SPRING', 'TRUST FALLS'])[0]
@@ -55,6 +59,7 @@ module.exports = function () {
     var edition = document.createElement('div')
     edition.className = 'cover--edition'
     edition.textContent = season + ', ' + year
+    coverPage.style.backgroundColor = 'black'
     coverPage.appendChild(edition)
     return coverPage
 }

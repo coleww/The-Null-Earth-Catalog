@@ -12,8 +12,6 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "^12.0.1",
-    "tape": "^4.2.2",
-    "watchify": "^3.6.1",
     "canvas": "^1.3.1",
     "capitalize": "^1.0.0",
     "cheerio": "^0.19.0",
@@ -33,8 +31,11 @@
     "queneau-letters": "^1.0.2",
     "request": "^2.65.0",
     "shuffle-array": "^0.1.0",
+    "tape": "^4.2.2",
     "this-is-probably-ok-to-say": "^1.0.3",
     "to-unicode": "^1.0.2",
+    "uglifyify": "^3.0.1",
+    "watchify": "^3.6.1",
     "word-vomit": "^1.0.1",
     "wordnik": "0.0.2"
   },

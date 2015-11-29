@@ -12,6 +12,10 @@ page-break-after: always;
 }
 
 .page {
+  width:100%;
+    height:100%;
+    border: 1px solid black;
+    page-break-before:always
   page-break-after: always;
 }
 
@@ -23,15 +27,18 @@ page-break-after: always;
 
 .cover--title {
   font-size: 50px;
+  color: white;
 }
 
 .cover--subtitle {
   font-size: 30px;
   font-style: italic;
+  color: white;
 }
 
 .cover--edition {
   font-size: 25px;
+  color: white;
 }
 
 .cover--img {
@@ -60,14 +67,14 @@ page-break-after: always;
 
 
 .use {
-  font-size: 30px;
+  font-size: 18px;
 }
 .use--headline {
 
 }
 
 .use--list {
-  width: 400px;
+  width: 90%;
 }
 
 .use--header {
@@ -75,24 +82,24 @@ page-break-after: always;
 }
 
 .use--mission {
-  width: 75%;
+  width: 90%;
   border: 3px solid gray;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 2px;
+  border-radius: 25px;
 }
 
 .use--img {
-  width: 300px;
+  width: 100px;
 }
 
 
 .use--mission {
-  font-size: 30px;
+  font-size: 12px;
 }
 
 .section--img {
-  width: 250px;
-  height: 250px;
+  width: 75px;
+  height: 75px;
   border: 1px dashed black;
 
 }

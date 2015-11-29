@@ -44,6 +44,7 @@ var imageMap = require('./imageMap')
 
 var actors = [absence, baes, brewer, britney, cleo, donald, frederick, mary, snake_oil, snowballer, yoga]
 module.exports = function (name, num, topics, i) {
+  console.log(name, num)
   var counter = 0
   var section = document.createElement('div') // nice semantics here
     section.style.padding = ~~(Math.random() * 15) + 'px'
@@ -55,13 +56,15 @@ var aCoverPage = document.createElement('div')
   var cover = document.createElement('center') // nice semantics here
   cover.className = 'page'
 
-  var heading  = document.createElement('h1')
+  var heading  = document.createElement('h4')
   heading.textContent = name
   cover.appendChild(heading)
 
   for (var i = 0; i < 4; i++) {
     var subImage = document.createElement('img')
     subImage.className = 'section--img'
+    subImage.style.width = '100px'
+    subImage.style.height = '100px'
     subImage.src = pick(pick(imageMap))
     cover.appendChild(subImage)
 
@@ -74,7 +77,7 @@ var aCoverPage = document.createElement('div')
   aCoverPage.appendChild(cover)
 
       var footer = document.createElement('div')
-    footer.textContent = num + i + 2 + ' | ' + name
+    footer.textContent = num + counter + 2 + ' | ' + name
     aCoverPage.appendChild(footer)
 
     section.appendChild(aCoverPage)
@@ -83,7 +86,7 @@ var aCoverPage = document.createElement('div')
     console.log('making a page')
     var aPage = document.createElement('div')
     aPage.className = 'page'
-    var numy = 3// + ~~(Math.random() * 10)
+    var numy = 3 + ~~(Math.random() * 3)
     console.log('making', numy, 'entries')
     for (var j = 0; j < numy; j++) {
       var item = document.createElement('div')
@@ -184,7 +187,7 @@ var aCoverPage = document.createElement('div')
       aPage.appendChild(item)
     }
     var footer = document.createElement('div')
-    footer.textContent = num + i + 2 + ' | ' + name
+    footer.textContent = num + (++counter) + 2 + ' | ' + name
 
     aPage.appendChild(footer)
 
