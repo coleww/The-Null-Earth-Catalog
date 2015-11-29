@@ -5,8 +5,10 @@ var section = require('./section')
 var topics = require('./toc')()
 var uses = require('./uses')()
 catalog.appendChild(require('./coverPage')())
-catalog.appendChild(require('./tocPage')(topics))
-catalog.appendChild(require('./usePage')(uses))
+var tops = require('./tocPage')(topics)
+
+tops.appendChild(require('./usePage')(uses))
+catalog.appendChild(tops)
 var sections = topics.forEach(function (topic, i) {
   catalog.appendChild(section(topic, i + 1, topics))
 })

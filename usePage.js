@@ -6,7 +6,7 @@ module.exports = function (uses) {
 
 
   var usePage = document.createElement('section')
-  usePage.className = 'use page'
+  usePage.className = 'use'
 
 
 

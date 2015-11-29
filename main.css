@@ -8,7 +8,7 @@ body {
   width:70% !important;
     height:70% !important;
     border: 1px solid black;
-    page-break-before:always;
+    /*page-break-before:always;*/
   page-break-after: always;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .cover--img {
-  width: 50%;
+  width: 80%;
 }
 
 .toc {
@@ -99,17 +99,14 @@ body {
 
 
 .item--thing {
-  /*width: 24%;*/
-  /*height: 14%;*/
-  /*border: 1px solid black;*/
-  /*float: left !important;*/
   display: inline-block;
-  /*margin: 5px;*/
-  /*padding: 12px;*/
+  page-break-inside: avoid;
+  margin: 3px;
+  padding: 3px;
 }
 
-.item--img {
-  /*width: 50%;*/
+.item--image {
+
 }
 
 

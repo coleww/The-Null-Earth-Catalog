@@ -54,15 +54,15 @@ var aCoverPage = document.createElement('div')
   var cover = document.createElement('center') // nice semantics here
   cover.className = 'page'
 
-  var heading  = document.createElement('h4')
+  var heading  = document.createElement('h2')
   heading.textContent = name
   cover.appendChild(heading)
 
   for (var i = 0; i < 4; i++) {
     var subImage = document.createElement('img')
     subImage.className = 'section--img'
-    subImage.style.width = '100px'
-    subImage.style.height = '100px'
+    subImage.style.width = '40%'
+    subImage.style.height = '40%'
     subImage.src = pick(pick(imageMap))
     cover.appendChild(subImage)
 
@@ -74,17 +74,11 @@ var aCoverPage = document.createElement('div')
 
   aCoverPage.appendChild(cover)
 
-      var footer = document.createElement('div')
-    footer.textContent = num + counter + 2 + ' | ' + name
-    aCoverPage.appendChild(footer)
-
     section.appendChild(aCoverPage)
 
-  for (var i = 0; i < 9; i++) {
+  for (var i = 0; i < 12; i++) {
     console.log('making a page')
-    var aPage = document.createElement('div')
-    aPage.className = 'page'
-    var numy = 3 + ~~(Math.random() * 3)
+    var numy = 5 + ~~(Math.random() * 7)
     console.log('making', numy, 'entries')
     for (var j = 0; j < numy; j++) {
       var item = document.createElement('div')
@@ -95,7 +89,7 @@ var aCoverPage = document.createElement('div')
       var actor = pick(actors)
       var itemImg = document.createElement('img')
       itemImg.className = 'item--img'
-      itemImg.style.width = 30 + ~~(Math.random() * 10) + '%'
+      itemImg.style.width = 50 + ~~(Math.random() * 50) + '%'
       itemImg.src = pick(pick(imageMap))
 
       if (Math.random() < 0.2) {
@@ -178,14 +172,10 @@ var aCoverPage = document.createElement('div')
         }
 
 
-      aPage.appendChild(item)
+      section.appendChild(item)
     }
-    var footer = document.createElement('div')
-    footer.textContent = num + (++counter) + 2 + ' | ' + name
 
-    aPage.appendChild(footer)
 
-    section.appendChild(aPage)
   }
   console.log('down with dis sec')
 
