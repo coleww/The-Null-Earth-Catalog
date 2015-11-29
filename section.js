@@ -44,8 +44,8 @@ var imageMap = require('./imageMap')
 var actors = [absence, baes, brewer, britney, cleo, donald, frederick, mary, snake_oil, snowballer, yoga]
 module.exports = function (name, num, topics) {
   var section = document.createElement('div') // nice semantics here
-    section.style.padding = ~~(Math.random() * 25) + 'px'
-  section.style.margin = ~~(Math.random() * 25) + 'px'
+    section.style.padding = ~~(Math.random() * 15) + 'px'
+  section.style.margin = ~~(Math.random() * 15) + 'px'
 
   section.className = 'section'
   console.log('doing a sec')
@@ -71,11 +71,11 @@ module.exports = function (name, num, topics) {
 
   section.appendChild(cover)
 
-  for (var i = 0; i < 7; i++) {
+  for (var i = 0; i < 9; i++) {
     console.log('making a page')
     var aPage = document.createElement('div')
     aPage.className = 'page'
-    var numy = 5// + ~~(Math.random() * 10)
+    var numy = 3// + ~~(Math.random() * 10)
     console.log('making', numy, 'entries')
     for (var j = 0; j < numy; j++) {
       var item = document.createElement('div')
@@ -86,7 +86,7 @@ module.exports = function (name, num, topics) {
       var actor = pick(actors)
       var itemImg = document.createElement('img')
       itemImg.className = 'item--img'
-      itemImg.style.width = 30 + ~~(Math.random() * 40) + '%'
+      itemImg.style.width = 30 + ~~(Math.random() * 10) + '%'
       itemImg.style.marginLeft = ~~(Math.random() * 5) + 'px'
       itemImg.style.marginTop = ~~(Math.random() * 5) + 'px'
       itemImg.src = pick(pick(imageMap))
@@ -103,32 +103,32 @@ module.exports = function (name, num, topics) {
 
       item.appendChild(itemImg)
       var text = document.createElement('h' + (~~(Math.random() * 5) + 2))
-      text.textContent = actor((~~(Math.random() * 7) + 3))
+      text.textContent = actor((~~(Math.random() * 5) + 3))
       item.appendChild(itemImg)
       item.appendChild(text)
       if (Math.random() < 0.75) {
         var summary = document.createElement('center')
 
-          summary.textContent = actor((~~(Math.random() * 12) + 7))
+          summary.textContent = actor((~~(Math.random() * 5) + 7))
 
 
         item.style.border = ~~(Math.random() * 4) +  1 + 'px ' + pick(['dashed', 'solid']) + ' ' + pick(['black', 'gray'])
-        item.style.width = 15 + ~~(Math.random() * 9) + '%'
-        item.style.height = 9 + ~~(Math.random() * 5) + '%'
+        item.style.width = 10 + ~~(Math.random() * 25) + '%'
+        item.style.height = 10 + ~~(Math.random() * 25) + '%'
         item.appendChild(summary)
       } else if (Math.random() < 0.5) {
         var list = document.createElement(Math.random() < 0.5 ? 'ol' : 'ul')
         if (Math.random() < 0.3) list.style.listStyle = 'none'
         list.className = 'item--list'
-        topics.forEach(function (topic) {
+         ;[1,2,3].forEach(function (topic) {
           var el = document.createElement('li')
 
-            el.textContent = actor(~~(Math.random() * 12) + 7)
+            el.textContent = actor(~~(Math.random() * 5) + 7)
             list.appendChild(el)
         })
         item.style.border = ~~(Math.random() * 4) +  1 + 'px ' + pick(['dashed', 'solid']) + ' ' + pick(['black', 'gray'])
-        item.style.width = 15 + ~~(Math.random() * 9) + '%'
-        item.style.height = 10 + ~~(Math.random() * 7) + '%'
+        item.style.width = 13 + ~~(Math.random() * 25) + '%'
+        item.style.height = 10 + ~~(Math.random() * 25) + '%'
         item.appendChild(list)
       } else {
         var author = document.createElement('h5')
@@ -136,23 +136,23 @@ module.exports = function (name, num, topics) {
         var opEd = document.createElement('div')
 
         // async this somehow?
-        ;[1,2,3,4,5].forEach(function (i) {
+        ;[1,2,3].forEach(function (i) {
 
             var dee = document.createElement('span')
-            dee.textContent = actor(i + ~~(Math.random() * 25))
-            dee.style.fontWeight = 10 + ~~(Math.random() * 15) + 'px'
+            dee.textContent = actor(i + ~~(Math.random() * 5))
+            dee.style.fontWeight = 1 + ~~(Math.random() * 15) + 'px'
             dee.style.fontStyle = pick(['bold', 'italic', 'regular'])
             opEd.appendChild(dee)
         })
         item.style.border = ~~(Math.random() * 4) +  1 + 'px ' + pick(['dashed', 'solid']) + ' ' + pick(['black', 'gray'])
-        item.style.width = 25 + ~~(Math.random() * 10) + '%'
-        item.style.height = 12 + ~~(Math.random() * 12) + '%'
+        item.style.width = 13 + ~~(Math.random() * 25) + '%'
+        item.style.height = 10 + ~~(Math.random() * 25) + '%'
         item.appendChild(author)
         item.appendChild(opEd)
       }
 
-        item.style.marginLeft = ~~(Math.random() * 15) + 'px'
-        item.style.marginTop = ~~(Math.random() * 15) + 'px'
+        item.style.marginLeft = ~~(Math.random() * 5) + 'px'
+        item.style.marginTop = ~~(Math.random() * 5) + 'px'
         if (Math.random() < 0.2) {
           item.style.float = 'left'
         } else if (Math.random() < 0.2) {

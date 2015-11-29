@@ -12,7 +12,7 @@ console.log('mer mer')
   var lines = pes
                 .reduce(function(a, b) {return a.concat(b)})
                 .map(function (l) {return l.replace(/\'|\"|\:|\;|\<|\>|\.|\?|\!|\,|\@|\#|\$|\%|\^|\&|\*|\(|\)/g, '')})
-                .map(function (l) { return wv(ns(wv(l, Math.random()), -7), Math.random())})
+                .map(function (l) { return ns(wv(ns(wv(l, Math.random())), Math.random()))})
                 .filter(function (x){ return !!proc(x)})
                 .filter(function (x){ return !!x})
 

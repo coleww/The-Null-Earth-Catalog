@@ -15,7 +15,7 @@ console.log('vails')
   var lines = pes
                 .reduce(function(a, b) {return a.concat(b)})
                 .map(function (l) {return l.replace(/\'|\"|\:|\;|\<|\>|\.|\?|\!|\,|\@|\#|\$|\%|\^|\&|\*|\(|\)/g, '')})
-                .map(function (l) { return pv(wv(pv(l, Math.random()), Math.random()))})
+                .map(function (l) { return pv(wv(pv(l, Math.random()) ), Math.random())})
                 .filter(function (x){ return !!proc(x)})
                 .filter(function (x){ return !!x})
 

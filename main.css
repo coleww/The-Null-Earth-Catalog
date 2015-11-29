@@ -75,7 +75,7 @@ page-break-after: always;
 }
 
 .use--mission {
-  width: 600px;
+  width: 75%;
   border: 3px solid gray;
   padding: 5px;
   border-radius: 5px;
