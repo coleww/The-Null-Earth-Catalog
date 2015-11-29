@@ -47,8 +47,6 @@ module.exports = function (name, num, topics, i) {
   console.log(name, num)
   var counter = 0
   var section = document.createElement('div') // nice semantics here
-    section.style.padding = ~~(Math.random() * 15) + 'px'
-  section.style.margin = ~~(Math.random() * 15) + 'px'
 
   section.className = 'section'
   console.log('doing a sec')
@@ -98,8 +96,6 @@ var aCoverPage = document.createElement('div')
       var itemImg = document.createElement('img')
       itemImg.className = 'item--img'
       itemImg.style.width = 30 + ~~(Math.random() * 10) + '%'
-      itemImg.style.marginLeft = ~~(Math.random() * 5) + 'px'
-      itemImg.style.marginTop = ~~(Math.random() * 5) + 'px'
       itemImg.src = pick(pick(imageMap))
 
       if (Math.random() < 0.2) {
@@ -162,8 +158,6 @@ var aCoverPage = document.createElement('div')
         item.appendChild(opEd)
       }
 
-        item.style.marginLeft = ~~(Math.random() * 5) + 'px'
-        item.style.marginTop = ~~(Math.random() * 5) + 'px'
         if (Math.random() < 0.2) {
           item.style.float = 'left'
         } else if (Math.random() < 0.2) {

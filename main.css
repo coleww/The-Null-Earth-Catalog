@@ -3,19 +3,12 @@ body {
   font-family: "Lucida Console", Monaco, monospace;
 }
 
-.catalog {
-
-}
-
-.section {
-page-break-after: always;
-}
 
 .page {
-  width:100%;
-    height:100%;
+  width:70% !important;
+    height:70% !important;
     border: 1px solid black;
-    page-break-before:always
+    page-break-before:always;
   page-break-after: always;
 }
 
@@ -26,23 +19,23 @@ page-break-after: always;
 }
 
 .cover--title {
-  font-size: 50px;
+  font-size: 30px;
   color: white;
 }
 
 .cover--subtitle {
-  font-size: 30px;
+  font-size: 25px;
   font-style: italic;
   color: white;
 }
 
 .cover--edition {
-  font-size: 25px;
+  font-size: 15px;
   color: white;
 }
 
 .cover--img {
-  width: 500px;
+  width: 50%;
 }
 
 .toc {

@@ -11,7 +11,7 @@ module.exports = function (uses) {
 
 
   var cento = document.createElement('center')
-  var headline = document.createElement('h1')
+  var headline = document.createElement('h4')
   headline.className = 'use--headline'
   headline.textContent = 'HOW 2 USE THIS TEXT'
   cento.appendChild(headline)
@@ -33,7 +33,7 @@ module.exports = function (uses) {
 
   cento.appendChild(list)
 
-    var headline = document.createElement('h3')
+    var headline = document.createElement('h7')
   headline.textContent = 'THE ROBOTS MAY DESTROY THE NULL EARTH AT ANY MOMENT. CHERISH YR EXISTENCE, FRAGILE MEAT CREATURE!'
   cento.appendChild(headline)
 
@@ -43,7 +43,7 @@ module.exports = function (uses) {
   cento.appendChild(subImage)
 
 
-    var headline = document.createElement('h2')
+    var headline = document.createElement('h6')
   headline.textContent = 'OUR MISSION:'
   cento.appendChild(headline)
   var theMission = document.createElement('div')

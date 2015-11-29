@@ -1,4 +1,5 @@
 var catalog = document.createElement('div')
+document.body.appendChild(catalog)
 catalog.className = 'catalog'
 var section = require('./section')
 var topics = require('./toc')()
@@ -12,5 +13,5 @@ var sections = topics.forEach(function (topic, i) {
 console.log('done dem secs')
 catalog.appendChild(require('./finalPage')())
 // make index? glossary? closing page?
-document.body.appendChild(catalog)
+
 console.log('we made it, ok')
