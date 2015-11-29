@@ -9,6 +9,8 @@ catalog.appendChild(require('./usePage')(uses))
 var sections = topics.forEach(function (topic, i) {
   catalog.appendChild(section(topic, i + 1, topics))
 })
+
+catalog.appendChild(require('./finalPage')())
 // make index? glossary? closing page?
 document.body.appendChild(catalog)
 console.log('we made it, ok')
