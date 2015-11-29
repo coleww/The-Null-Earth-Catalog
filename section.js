@@ -2,6 +2,7 @@ var pick = function (arr) {
   if (!arr || !arr.length) throw arr.join(' ')
   return arr[~~(Math.random() * arr.length)]
 }
+
 var imageMap = require('./imageMap')
 var cap = require('capitalize')
 
@@ -42,14 +43,15 @@ console.log('wtf')
 var imageMap = require('./imageMap')
 
 var actors = [absence, baes, brewer, britney, cleo, donald, frederick, mary, snake_oil, snowballer, yoga]
-module.exports = function (name, num, topics) {
+module.exports = function (name, num, topics, i) {
+  var counter = 0
   var section = document.createElement('div') // nice semantics here
     section.style.padding = ~~(Math.random() * 15) + 'px'
   section.style.margin = ~~(Math.random() * 15) + 'px'
 
   section.className = 'section'
   console.log('doing a sec')
-
+var aCoverPage = document.createElement('div')
   var cover = document.createElement('center') // nice semantics here
   cover.className = 'page'
 
@@ -69,7 +71,13 @@ module.exports = function (name, num, topics) {
   }
 
 
-  section.appendChild(cover)
+  aCoverPage.appendChild(cover)
+
+      var footer = document.createElement('div')
+    footer.textContent = num + i + 2 + ' | ' + name
+    aCoverPage.appendChild(footer)
+
+    section.appendChild(aCoverPage)
 
   for (var i = 0; i < 9; i++) {
     console.log('making a page')
@@ -175,6 +183,11 @@ module.exports = function (name, num, topics) {
 
       aPage.appendChild(item)
     }
+    var footer = document.createElement('div')
+    footer.textContent = num + i + 2 + ' | ' + name
+
+    aPage.appendChild(footer)
+
     section.appendChild(aPage)
   }
   console.log('down with dis sec')
